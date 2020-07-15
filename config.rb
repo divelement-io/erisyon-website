@@ -14,6 +14,9 @@ activate :external_pipeline,
  source: ".tmp/dist",
  latency: 1
 
+# Reload the browser automatically whenever files change
+activate :livereload, host: '0.0.0.0', port: '1234'
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
