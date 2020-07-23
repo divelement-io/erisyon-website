@@ -1,28 +1,118 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
 
 body {
-  background-color: lightblue;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
-  color: rgba(#000, 0.7);
+  text-decoration: none;
 }
 
-a:focus,
-a:hover {
-  color: rgba(#000, 0.6);
+.content {
+  background: url(../images/background.png);
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.nav-bar {
+  display: flex;
+  align-items: flex-end;
+  background-color: #193562;
+  height: 90px;
+  padding: 0 60px;
+  transition: all 0.25s;
+  position: sticky;
+  top: 0;
+}
+
+.nav-bar.scrolled {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.nav-bar .logo {
+  margin-right: auto;
+}
+
+.nav-bar a {
+  color: white;
+}
+
+.nav-bar .logo img {
+  width: 120px;
+}
+
+.nav-bar .nav-button {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 12px 24px;
+  transition: all 0.25s;
+}
+
+.nav-bar .nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-bar .nav-button.current {
+  border-bottom: 2px #f5801f solid;
+}
+
+.footer {
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  row-gap: 24px;
+  background-color: #193562;
+  color: white;
+  padding: 24px 60px;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer .row {
+  display: flex;
+  padding-right: 24px;
+}
+
+.footer .logo {
+  margin-right: auto;
+}
+
+.footer .logo img {
+  width: 120px;
+}
+
+.footer .footer-button {
+  font-size: 12px;
+  padding: 12px;
+  transition: all 0.25s;
+}
+
+.footer .footer-button:hover {
+  opacity: 0.5;
+}
+
+.footer .footer-button:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.footer .twitter {
+  transition: all 0.25s;
+}
+
+.footer .twitter:hover {
+  opacity: 0.5;
+}
+
+.footer .copyright {
+  opacity: 0.5;
+  font-size: 12px;
+  margin-right: auto;
 }
