@@ -13,9 +13,30 @@ a {
   text-decoration: none;
 }
 
-.content {
-  background: url(../images/background.png);
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
 }
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+p a {
+  text-decoration: none;
+  color: #f5801f;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* NAV_BAR */
 
 .nav-bar {
   display: flex;
@@ -59,6 +80,8 @@ a {
 .nav-bar .nav-button.current {
   border-bottom: 2px #f5801f solid;
 }
+
+/* FOOTER */
 
 .footer {
   margin-top: auto;
@@ -115,4 +138,245 @@ a {
   opacity: 0.5;
   font-size: 12px;
   margin-right: auto;
+}
+
+/* CONTENT */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block {
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.block > * {
+  max-width: 900px;
+}
+
+.block.stars h1 {
+  color: white;
+}
+
+.stars {
+  background: url(../images/background.png);
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-origin: border-box;
+}
+
+.orange {
+  background-color: #e98c3d;
+}
+
+.grey {
+  background-color: #f0f5f8;
+}
+
+.box {
+  background-color: white;
+  padding: 30px 60px;
+}
+
+.shadow {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.grid-h {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .item {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.box .item .icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px #999 solid;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+}
+
+.box .item .title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #999;
+}
+
+.box .item .description {
+  font-size: 18px;
+  color: #999;
+  margin: 12px;
+}
+
+.box .item .more {
+  font-size: 18px;
+  border-radius: 4px;
+  border: 1px #999 solid;
+  padding: 6px;
+  transition: all 0.25s;
+  margin: 12px;
+  background-color: white;
+}
+
+.box .item .more:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.box .item a.more {
+  color: #999;
+}
+
+.fluorsequencing .table {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+  column-gap: 60px;
+  row-gap: 30px;
+}
+
+.fluorsequencing .table .logo {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 18px;
+  width: fit-content;
+  border-radius: 16px;
+}
+
+.fluorsequencing .table p {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.fluorsequencing .table .picture {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+
+.fluorsequencing h2 {
+  margin: 48px;
+}
+
+.fluorsequencing .grid-h {
+  margin-bottom: 48px;
+  width: 100%
+}
+
+.fluorsequencing .grid-h .item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fluorsequencing .grid-h .item .icon {
+  border-radius: 16px;
+  border: 1px black solid;
+  overflow: hidden;
+}
+
+.fluorsequencing .grid-h .item .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 12px;
+}
+
+.fluorsequencing .grid-h .item .description {
+  font-size: 16px;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.zigzag {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  column-gap: 48px;
+  row-gap: 48px;
+  padding: 48px;
+}
+
+.zigzag .picture {
+  align-self: stretch;
+  justify-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.news {
+  background-color: white;
+  border-radius: 18px;
+  width: 100%;
+  padding: 48px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 30px;
+  row-gap: 12px;
+  margin-bottom: 24px;
+}
+
+.news:last-child {
+  margin-bottom: 0;
+}
+
+.news .icon {
+  grid-column: 1;
+}
+
+.news .logo {
+  grid-column: 2;
+}
+
+.news .description {
+  grid-column: 2;
+  color: #999;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.more {
+  grid-column: 3;
+  grid-row: 1 / 3;
+  align-self: center;
+  background-color: #e98c3d;
+  padding: 6px;
+  border-radius: 4px;
+  transition: all 0.25s;
+}
+
+.more:hover {
+  background-color: #db7d37;  
+}
+
+a.more {
+  color: white;
 }
