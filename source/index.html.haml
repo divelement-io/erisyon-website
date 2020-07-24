@@ -11,8 +11,7 @@ section: Index
             Erisyon’s next generation proteomics will transform our approach to disease management
         .grid-h
             .item
-                .icon
-                    %img{:src => "./images/icon-detect.png"}
+                .icon.frame{:style => "background-image:url(./images/icon-detect.png);"}
                 .title
                     Detect
                 .description
@@ -20,8 +19,7 @@ section: Index
                 %a.more{:href => "detect.html"}
                     Learn more
             .item
-                .icon
-                    %img{:src => "./images/icon-treat.png"}
+                .icon.frame{:style => "background-image:url(./images/icon-treat.png);"}
                 .title
                     Treat
                 .description
@@ -29,8 +27,7 @@ section: Index
                 %a.more{:href => "treat.html"}
                     Learn more
             .item
-                .icon
-                    %img{:src => "./images/icon-track.png"}
+                .icon.frame{:style => "background-image:url(./images/icon-track.png);"}
                 .title 
                     Track
                 .description
@@ -42,69 +39,65 @@ section: Index
         Breakthough Technology
     .table
         .logo.shadow
-            %img{:src => "./images/fluorosequencing.png"}
+            .picture{:style => "background-image:url(./images/fluorosequencing-logo.png)"}
+            .picture{:style => "background-image:url(./images/fluorosequencing-icons.png)"}
         %p
             Fluorosequencing is a single molecule protein sequencing technology that offers the capability to catalogue and quantify every single peptide and protein molecule present in a biological sample. The technology opens up many applications in biology, such as characterizing the antigenic peptides on clinical tumor biopsies for cancer vaccine therapies, single cell proteomics or early detection of biomarkers in neurodegenerative diseases.
             %a{:href => "technology.html"}
                 Learn more
-        %img.picture{:src => "./images/fluorosequencing-detail.png"}
-    %h2.center
+        .diagram{:style => "background-image:url(./images/fluorosequencing-detail.png)"}
+    %h3.center
         Next gen genomic advantages now for proteomics
     .grid-h
         .item
-            .icon
-                %img{:src => "./images/icon-sensitivity.png"}
+            .icon{:style => "background-image:url(./images/icon-sensitivity.png);"}
             .title
                 Ultimate Sensitivity
-            .description
+            %div
                 Single molecule resolution
         .item
-            .icon
-                %img{:src => "./images/icon-thoroughput.png"}
+            .icon{:style => "background-image:url(./images/icon-thoroughput.png);"}
             .title
                 Massively Parallel Throughput
-            .description
+            %div
                 Billions of simultaneous experiments
         .item
-            .icon
-                %img{:src => "./images/icon-quantification.png"}
+            .icon{:style => "background-image:url(./images/icon-quantification.png);"}
             .title
                 Absolute Quantification
-            .description
+            %div
                 Exact counts of protein abundance
     %a.more{:href => "fluorosequencing.html"}
         Learn more about Fluorosequencing
 .block.grey
     %h1
         Breakthrough Applications
-    .zig
-        .description
+    .zigzag
+        .zig
             Measuring healthy vs pathological alpha-synuclean protein for Parkinson’s diagnostics
-        .picture
-            %img{:src => "./images/breakthrough-1.png"}
-    .zag   
-        .picture
-            %img{:src => "./images/breakthrough-2.png"}
-        .description
+            .gradient
+                .picture{:style => "background-image:url(./images/breakthrough-1.png);"}
+        .zag
+            .gradient
+                .picture{:style => "background-image:url(./images/breakthrough-2.png);"}
             Direct detection of antigen proteins for better immune-oncology treatments
-    .zig    
-        .description
+        .zig    
             Revealing the camouflage viruses use to evade the immune system
-        .picture
-            %img{:src => "./images/breakthrough-3.png"}
+            .gradient
+                .picture{:style => "background-image:url(./images/breakthrough-3.png);"}
     %a.more{:href => "applications.html"}
         Learn more about Applications
 .block.orange
     .news.shadow
-        %img.icon{:src => "./images/docs.png"}
-        %img.logo{:src => "./images/nature-logo.png"}
+        .icon{:style => "background-image:url(./images/docs.png)"}
+        .logo{:style => "background-image:url(./images/nature-logo.png)"}
         .description
             "News Protein Sequencing Method Could Transform Biological Research"
         %a.more{:href => "nature.html"}
             View Press Release
     .news.shadow
-        %img.icon{:src => "./images/docs.png"}
-        %img.logo{:src => "./images/acs-logo.png"}
+        .icon{:style => "background-image:url(./images/docs.png)"}
+        .logo{:style => "background-image:url(./images/acs-logo.png)"}
         .description
             "News Protein Sequencing Method Could Transform Biological Research"
         %a.more{:href => "acs.html"}
