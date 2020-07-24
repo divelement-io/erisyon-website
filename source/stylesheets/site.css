@@ -206,6 +206,14 @@ p a:hover {
   margin-top: -720px;
 }
 
+.block.stars {
+  height: fit-content;
+}
+
+.block.stars + * {
+  margin-top: 0;
+}
+
 .orange {
   background-color: #FF7C00;
 }
@@ -570,4 +578,34 @@ a.more {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* APPLICATIONS */
+
+.multiply {
+  mix-blend-mode: multiply;
+}
+
+.additional {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  column-gap: 30px;
+  row-gap: 60px;
+}
+
+.additional .picture {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px #003264 solid;
+  padding: 48px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  box-sizing: border-box;
+}
+
+.additional .title {
+  font-size: 30px;
 }
