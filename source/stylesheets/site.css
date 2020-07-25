@@ -413,8 +413,8 @@ p a:hover {
   grid-template-columns: 420px 1fr;
 }
 
-.zig .gradient,
-.zag .gradient {
+.zigzag .zig .gradient,
+.zigzag .zag .gradient {
   content: '';
   display: flex;
   align-items: center;
@@ -423,16 +423,24 @@ p a:hover {
   overflow: hidden;
   align-self: stretch;
   justify-self: stretch;
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,241,246,1) 100%);
   padding: 30px;
-}
-
-.zig .gradient {
   background: linear-gradient(90deg, rgba(236,241,246,1) 0%, rgba(255,255,255,1) 100%);
 }
 
-.zig .picture,
-.zag .picture {
+.zigzag .zig .gradient {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,241,246,1) 100%);
+}
+
+.block.grey .zigzag .zig .gradient {
+  background: linear-gradient(90deg, rgba(236,241,246,1) 0%, rgba(255,255,255,1) 100%);  
+}
+
+.block.grey .zigzag .zag .gradient {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,241,246,1) 100%);  
+}
+
+.zigzag .zig .picture ,
+.zigzag .zag .picture {
   min-height: 240px;
   width: 100%;
   height: 100%;
@@ -441,8 +449,8 @@ p a:hover {
   background-repeat: no-repeat;
 }
 
-.zig p,
-.zag p {
+.zigzag .zig p,
+.zigzag .zag p {
   font-size: 18px;
 }
 
