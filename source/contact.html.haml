@@ -2,4 +2,12 @@
 title: Erisyon - Contact
 section: Contact
 ---
-%h1 Contact
+.block.stars
+    %h1.white.center
+        We are open to discuss early instrument access and collaboration
+.block.grey
+    %form
+        %input{:placeholder => 'Enter your name…', :name => 'name', :type => 'text', :required => true}
+        %input{:placeholder => 'Enter your email…', :name => 'email', :type => 'email', :required => true}
+        %textarea{:placeholder => 'Message…', :name => 'message', :required => true}
+        %input{:type => 'submit', :value => 'Send'}
