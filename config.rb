@@ -58,10 +58,12 @@ configure :development do
  config[:js_dir] = ".tmp/dist"
 end
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :gzip
+  activate :minify_css
+  activate :minify_javascript
+  activate :asset_hash
+end
 
 activate :s3_sync do |s3_sync|
   s3_sync.bucket = 'erisyon.manas.dev'
