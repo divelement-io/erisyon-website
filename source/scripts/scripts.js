@@ -1,6 +1,8 @@
 function handleScroll(e) {
-    document.querySelector('.nav-bar').classList.toggle('scrolled', window.scrollY > 0)
+    const navBar = document.querySelector('.nav-bar')
+    navBar.classList.toggle('scrolled', window.scrollY > 0)
 }
+
 window.addEventListener('scroll', handleScroll)
 
 function showVideo() {
@@ -25,4 +27,9 @@ function hideVideo(e) {
 
 function scrollTo(id) {
     document.getElementById(id).scrollIntoView({behavior:'smooth'})
+}
+
+function toggleMenu() {
+    const navBar = document.querySelector('.nav-bar')
+    navBar.classList.toggle('show')
 }

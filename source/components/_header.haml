@@ -1,6 +1,8 @@
 .nav-bar
-    %a.logo{:href => 'index.html'}
-        %img{:src => '../images/erisyon-logo.svg'}
-    - data.sections.items.each do |section|
-        %a.nav-button{:class => ("current" if current_page.data.section == section[:name]), :href => section[:url]}
-            = section[:name]
+    %a.logo{:href => "index.html"}
+        %img{:src => "../images/erisyon-logo.svg"}
+    .buttons
+        %a.menu{:href => "javascript:toggleMenu()"}    
+        - data.sections.items.each do |section|
+            %a.nav-button{:class => ("current" if current_page.data.section == section[:name]), :href => section[:url]}
+                = section[:name]
