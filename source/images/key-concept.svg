@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1116px" height="141px" viewBox="0 0 1116 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8</title>
+    <defs>
+        <radialGradient cx="50%" cy="45.8079375%" fx="50%" fy="45.8079375%" r="115.999608%" gradientTransform="translate(0.500000,0.458079),scale(1.000000,0.338144),rotate(90.000000),translate(-0.500000,-0.458079)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <path d="M83,98 L82.999,295.5 L107.5,295.5 L66.5,340.5 L25.5,295.5 L47.999,295.5 L48,98 L83,98 Z" id="path-2"></path>
+    </defs>
+    <g id="website-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8" transform="translate(0.000000, 0.500000)">
+            <g id="arrow_fade_down-copy" transform="translate(519.500000, 70.000000) rotate(-90.000000) translate(-519.500000, -70.000000) translate(450.000000, -107.000000)">
+                <use fill="#FF8427" xlink:href="#path-2"></use>
+                <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+            </g>
+            <g id="icon_server_search" transform="translate(505.000000, 24.000000)" fill="#000000" fill-rule="nonzero">
+                <path d="M77.2957613,57.4164274 C88.2665763,57.4164274 97.1662618,66.3145761 97.1662618,77.2913446 C97.1662618,81.984034 95.5397049,86.296823 92.8201357,89.6968724 L105.353197,102.230155 C106.215601,103.092559 106.215601,104.490793 105.353197,105.353197 C104.586615,106.119778 103.396662,106.204954 102.535998,105.608724 L102.230155,105.353197 L89.6970551,92.820273 C86.2975183,95.5399858 81.9859055,97.1662618 77.2957613,97.1662618 C66.3146727,97.1662618 57.4164274,88.2710892 57.4164274,77.2913446 C57.4164274,66.3116001 66.3146727,57.4164274 77.2957613,57.4164274 Z M44.1664826,0 C68.4337978,0 88.3329653,8.3798152 88.3329653,19.8749172 L88.3329653,19.8749172 L88.3329653,44.1664826 C88.3329653,45.3861064 87.3442649,46.3748068 86.1246411,46.3748068 C85.0405312,46.3748068 84.1388791,45.5936114 83.9518961,44.5634317 L83.916317,44.1664826 L83.9176624,28.7573952 C76.7408147,35.4399321 61.5815513,39.7498344 44.1664826,39.7498344 C26.751414,39.7498344 11.5921506,35.4399321 4.41530287,28.7573952 L4.41664826,37.5423936 L4.41664826,37.5423936 C4.41664826,45.5593534 22.0932916,53.0006625 44.1664826,53.0006625 C46.3224071,53.0006625 48.4835033,52.9261419 50.6427652,52.7804249 C51.8596212,52.6983058 52.9126486,53.6181918 52.9947677,54.8350478 C53.0768868,56.0519038 52.1570008,57.1049311 50.9401448,57.1870503 C48.6830133,57.339372 46.4227898,57.4173108 44.1664826,57.4173108 C26.751414,57.4173108 11.5921506,53.1074085 4.41530287,46.4248715 L4.41664826,57.4164274 L4.41664826,57.4164274 C4.41664826,65.4333873 22.0932916,72.8746964 44.1664826,72.8746964 C45.3861064,72.8746964 46.3748068,73.8633967 46.3748068,75.0830205 C46.3748068,76.3026442 45.3861064,77.2913446 44.1664826,77.2913446 C26.751414,77.2913446 11.5921506,72.9814424 4.41530287,66.2989054 L4.41664826,77.2913446 C4.41664826,85.3083045 22.0932916,92.7496135 44.1664826,92.7496135 C45.3861064,92.7496135 46.3748068,93.7383139 46.3748068,94.9579377 C46.3748068,96.1775614 45.3861064,97.1662618 44.1664826,97.1662618 C20.3586299,97.1662618 0.766690469,89.1114111 0.0219590159,77.9513623 L0,77.2913446 L0,19.8749172 L0.00595421924,19.531004 C0.398420165,8.21305688 20.1418407,0 44.1664826,0 Z M77.2957613,61.8330757 C68.7535787,61.8330757 61.8330757,68.7511891 61.8330757,77.2913446 C61.8330757,85.8315002 68.7535787,92.7496135 77.2957613,92.7496135 C81.5449194,92.7496135 85.394818,91.0329133 88.1891695,88.2548117 C88.1986982,88.2426222 88.2095523,88.2315409 88.2205466,88.2205466 L88.2479569,88.1960531 C91.0297508,85.4007278 92.7496135,81.5468448 92.7496135,77.2913446 C92.7496135,68.7539944 85.8274995,61.8330757 77.2957613,61.8330757 Z M44.1664826,4.41664826 C22.1004245,4.41664826 4.41664826,11.8635315 4.41664826,19.8749172 C4.41664826,27.8918771 22.0932916,35.3331861 44.1664826,35.3331861 C66.2396737,35.3331861 83.916317,27.8918771 83.916317,19.8749172 C83.916317,11.8635315 66.2325408,4.41664826 44.1664826,4.41664826 Z" id="Combined-Shape"></path>
+            </g>
+            <g id="incomplete" transform="translate(0.000000, 1.000000)">
+                <g id="word" transform="translate(0.000000, 77.000000)">
+                    <g id="letter_panel">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="9.5" y="51">H</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(52.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36"></text>
+                    </g>
+                    <g id="letter_panel" transform="translate(104.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="10" y="51">D</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(156.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="10" y="51">G</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(208.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36"></text>
+                    </g>
+                    <g id="letter_panel" transform="translate(260.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="9.5" y="51">H</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(312.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36"></text>
+                    </g>
+                    <g id="letter_panel" transform="translate(364.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="10" y="51">G</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="word-copy-2">
+                    <g id="letter_panel">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="13" y="51">S</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(52.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36"></text>
+                    </g>
+                    <g id="letter_panel" transform="translate(104.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="8" y="51">N</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(156.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="17" y="51">I</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(208.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="11.5" y="51">C</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="complete" transform="translate(705.000000, 1.000000)">
+                <g id="word" transform="translate(0.000000, 77.000000)">
+                    <g id="letter_panel">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="9.5" y="51">H</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(52.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="13.5" y="51">E</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(104.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="10" y="51">D</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(156.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="10" y="51">G</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(208.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="13.5" y="51">E</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(260.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="9.5" y="51">H</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(312.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="9" y="51">O</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(364.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="10" y="51">G</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="word-copy-2">
+                    <g id="letter_panel">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="13" y="51">S</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(52.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="9" y="51">O</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(104.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="8" y="51">N</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(156.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="17" y="51">I</tspan>
+                        </text>
+                    </g>
+                    <g id="letter_panel" transform="translate(208.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
+                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
+                            <tspan x="11.5" y="51">C</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

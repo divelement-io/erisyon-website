@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8</title>
+    <g id="website-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8">
+            <rect id="Rectangle" fill-opacity="0" fill="#000000" x="0" y="0" width="150" height="150"></rect>
+            <g id="chart-1" transform="translate(17.000000, 25.000000)">
+                <polyline id="Stroke-4662" stroke="#003264" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="116 101 0 101 0 0"></polyline>
+                <path d="M19,88 C24.788,88 30.752,82.9146412 31.788,75.9130603 L36.572,44.6271738 C38.464,31.7933989 53.532,31.7884855 55.428,44.6271738 L60.212,75.9130603 C61.248,82.9146412 67.212,88 73,88" id="Stroke-4665-Copy" fill="#96E1FF"></path>
+                <path d="M63,68 C63.9297573,72.8892724 65.339719,85 79,85" id="Stroke-4663" stroke="#003264" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M13,86 C20.2896725,86 26.5415617,80.730816 27.8463476,73.4761423 L33.8715365,40.0231875 C35.4785894,31.0681202 45.861461,27.0258669 53,32.4528719" id="Stroke-4664" stroke="#003264" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M38,86 C45.235,86 51.44,80.7262946 52.735,73.4653959 L58.715,39.9837358 C61.08,26.6746359 79.915,26.6695405 82.285,39.9837358 L88.265,73.4653959 C89.56,80.7262946 95.765,86 103,86" id="Stroke-4665" stroke="#FF7C00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -2,8 +2,8 @@
 title: Erisyon - Technology
 section: Technology
 ---
-.stars
-.block
+.purple
+.block.collapse
     %h1.white.center
         Fluorosequencing is a proteomics game changer
     .box.shadow
@@ -12,11 +12,11 @@ section: Technology
                 Key Concept
             %br
             With help from a reference database, only a few amino acids are needed to uniquely identify a protein in the proteome
-        .key-concept{:style => "background-image:url(./images/key-concept.png)"}
+        %img.key-concept{:src => "./images/key-concept.svg"}
 .block
     %h3.center
         Example: Cataloging all the proteins of a single cell
-    .grid-h
+    .grid-h.expand
         .item
             .title.small
                 1. Proteome digested and captured
@@ -34,17 +34,17 @@ section: Technology
                 4. Fluorosequencing
             .icon{:style => "background-image:url(./images/cataloging-4.png);"}
     .rule
-    .diagram-big{:style => "background-image:url(./images/diagram.png)"}
-        .logo.shadow
-            .picture{:style => "background-image:url(./images/fluorosequencing-logo.png)"}
-    %p
+    %a.button.video{:href => "javascript:showVideo()", :style => "margin-top:-90px;"}
+        Play Fluorosequencing Video
+    %img.diagram-big{:src => "./images/diagram.png"}
+    %p.columns
         %b
             The key concept of Fluorosequencing
         as described in
         %a{:href => "https://www.nature.com/", :target => "_blank"}
             Nature Biotechnology article
         is as follows: First, one or more amino acid types on the peptides are selectively chemically labeled with specific identifier fluorophores. Millions of individual peptides are then immobilized on a glass cover slip. Next, each molecule’s fluorescence is monitored using total internal reflection fluorescence (TIRF) microscopy following consecutive rounds of amino-terminal (N-terminal) amino acid removal by Edman chemistry. The sequence positions of the labeled amino acids are thus identified for each peptide molecule, providing a partial sequence for each molecule. These fluorescence signatures (“fluorosequences”) can then be compared to a reference proteome for assignment to their proteins of origin.
-.block.grey
+.block.grey.collapse
     %h1
         Features and benefits
     .zigzag
@@ -54,10 +54,10 @@ section: Technology
                 %p
                     The ability to image and sequence individual peptide molecules makes the technology immediately 1 million times more sensitive than the current peptide mass- spectrometers. This offers the benefit of using extremely low sample amounts, such as clinical biopsies. This smaller sample requirements, assuming a factor of at least 1000, roughly translates to a difference between needing 1/4th of a pancreas or sampling with a needle for biopsy material.
             .gradient
-                .picture{:style => "background-image:url(./images/icon-sensitivity.png);"}
+                .picture{:style => "background-image:url(./images/icon-sensitivity.svg);"}
         .zag   
             .gradient
-                .picture{:style => "background-image:url(./images/icon-thoroughput.png);"}
+                .picture{:style => "background-image:url(./images/icon-thoroughput.svg);"}
             %div
                 Massively parallel architecture
                 %p
@@ -68,10 +68,10 @@ section: Technology
                 %p
                     Since every single molecule measurement is independent of another, fluorosequencing platform can discriminate peptides and proteins across a large range of heterogeneity and abundances (up to 10^6 range). This means that if there is a single peptide, mixed with 1 million copies of a different peptide, the two peptides can both be identified. This helps identifying peptides existing in an extremely diverse backgrounds, such as antigens on tumor surfaces or discriminating low abundant phosphorylation event on a protein.
             .gradient
-                .picture{:style => "background-image:url(./images/icon-heterogeneous.png);"}
+                .picture{:style => "background-image:url(./images/icon-heterogeneous.svg);"}
         .zag   
             .gradient
-                .picture{:style => "background-image:url(./images/icon-quantification.png);"}
+                .picture{:style => "background-image:url(./images/icon-quantification.svg);"}
             %div
                 Digital quantification
                 %p
@@ -114,3 +114,5 @@ section: Technology
                     Sequential processing
                 %li
                     PTM low resolution
+.videoPlayer.hidden
+    %video{:src => "./images/erisyon_fs_animation02.1.m4v", :controls => true}

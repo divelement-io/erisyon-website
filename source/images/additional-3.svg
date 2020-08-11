@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 10</title>
+    <g id="website-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10">
+            <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="150" height="150"></rect>
+            <g id="Group-754" transform="translate(24.000000, 13.000000)">
+                <path d="M25.5,71.7171928 L49.5,85.0918058 L49.5,108.908194 L25.5,122.282807 L1.5,108.908194 L1.5,85.0918058 L25.5,71.7171928 Z" id="Stroke-8301-Copy" stroke="#FFFFFF" stroke-width="3" fill="#96E1FF"></path>
+                <path d="M22,1.68045263 L31.5,6.47843242 L31.5,18.3878489 L22,23.3105762 L12.5,18.3878489 L12.5,6.47843242 L22,1.68045263 Z" id="Stroke-8300-Copy" stroke="#FFFFFF" stroke-width="3" fill="#FF7C00"></path>
+                <polygon id="Stroke-8300" stroke="#003264" stroke-width="2" stroke-linejoin="round" points="11 5.55555556 22 0 33 5.55555556 33 19.3 22 25 11 19.3"></polygon>
+                <polygon id="Stroke-8301" stroke="#003264" stroke-width="2" stroke-linejoin="round" points="0 84.2105263 25.5 70 51 84.2105263 51 109.789474 25.5 124 0 109.789474"></polygon>
+                <polygon id="Stroke-8302" stroke="#003264" stroke-width="2" stroke-linejoin="round" points="62 30.4666667 81.8514286 19 102 30.4666667 102 50.5333333 82 62 62 50.5333333"></polygon>
+                <line x1="51" y1="84" x2="82" y2="62" id="Stroke-8303" stroke="#003264" stroke-width="2"></line>
+                <line x1="62" y1="30" x2="33" y2="19" id="Stroke-8304" stroke="#003264" stroke-width="2"></line>
+                <polyline id="Stroke-8305" stroke="#003264" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="11 102 11 90.6666667 22 85"></polyline>
+                <polyline id="Stroke-8306" stroke="#003264" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="74 44 74 35.75 80 33"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

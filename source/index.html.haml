@@ -1,46 +1,40 @@
 ---
 title: Erisyon
-section: Index
+section: Home
 ---
-.stars
-.block
+.purple
+.block.collapse
     %h1.white.center
         Introducing the world’s first single molecule protein sequencer
     .box.shadow
         %h2.center
             Erisyon’s next generation proteomics will transform our approach to disease management
-        .grid-h
-            .item
-                .icon.frame{:style => "background-image:url(./images/icon-detect.png);"}
+        .grid-h.padding.clickable
+            %a.item{:href => "javascript:scrollTo('breakthrough-applications')"}
+                .icon.frame{:style => "background-image:url(./images/icon-detect.svg);"}
                 .title
                     Detect
                 .description
                     Ultra-wide dynamic range for liquid biopsy diagnostics
-                %a.button{:href => "detect.html"}
-                    Learn more
-            .item
-                .icon.frame{:style => "background-image:url(./images/icon-treat.png);"}
+            %a.item{:href => "javascript:scrollTo('breakthrough-applications')"}
+                .icon.frame{:style => "background-image:url(./images/icon-treat.svg);"}
                 .title
                     Treat
                 .description
                     Better and more accurate therapeutic selection
-                %a.button{:href => "treat.html"}
-                    Learn more
-            .item
-                .icon.frame{:style => "background-image:url(./images/icon-track.png);"}
+            %a.item{:href => "javascript:scrollTo('breakthrough-applications')"}
+                .icon.frame{:style => "background-image:url(./images/icon-track.svg);"}
                 .title 
                     Track
                 .description
                     Disease progression monitoring
-                %a.button{:href => "track.html"}
-                    Learn more
 .block.fluorosequencing
     %h1
         Breakthough Technology
     .table
         .logo.shadow
-            .picture{:style => "background-image:url(./images/fluorosequencing-logo.png)"}
-            .picture{:style => "background-image:url(./images/fluorosequencing-icons.png)"}
+            .picture{:style => "background-image:url(./images/fluorosequencing-logo.svg)"}
+            .picture{:style => "background-image:url(./images/fluorosequencing-icons.svg)"}
         %p
             Fluorosequencing is a single molecule protein sequencing technology that offers the capability to catalogue and quantify every single peptide and protein molecule present in a biological sample. The technology opens up many applications in biology, such as characterizing the antigenic peptides on clinical tumor biopsies for cancer vaccine therapies, single cell proteomics or early detection of biomarkers in neurodegenerative diseases.
             %a{:href => "technology.html"}
@@ -50,55 +44,55 @@ section: Index
         Next gen genomic advantages now for proteomics
     .grid-h
         .item
-            .icon{:style => "background-image:url(./images/icon-sensitivity.png);"}
+            .icon{:style => "background-image:url(./images/icon-sensitivity.svg);"}
             .title
                 Ultimate Sensitivity
             %div
                 Single molecule resolution
         .item
-            .icon{:style => "background-image:url(./images/icon-thoroughput.png);"}
+            .icon{:style => "background-image:url(./images/icon-thoroughput.svg);"}
             .title
                 Massively Parallel Throughput
             %div
                 Billions of simultaneous experiments
         .item
-            .icon{:style => "background-image:url(./images/icon-quantification.png);"}
+            .icon{:style => "background-image:url(./images/icon-quantification.svg);"}
             .title
                 Absolute Quantification
             %div
                 Exact counts of protein abundance
     %a.button{:href => "fluorosequencing.html"}
         Learn more about Fluorosequencing
-.block.grey
+.block.grey#breakthrough-applications
     %h1
         Breakthrough Applications
     .zigzag
         .zig
             Measuring healthy vs pathological alpha-synuclean protein for Parkinson’s diagnostics
             .gradient
-                .picture{:style => "background-image:url(./images/breakthrough-1.png);"}
+                .picture.padding{:style => "background-image:url(./images/breakthrough-1.png);"}
         .zag
             .gradient
-                .picture{:style => "background-image:url(./images/breakthrough-2.png);"}
+                .picture.padding{:style => "background-image:url(./images/breakthrough-2.png);"}
             Direct detection of antigen proteins for better immune-oncology treatments
         .zig    
             Revealing the camouflage viruses use to evade the immune system
             .gradient
-                .picture{:style => "background-image:url(./images/breakthrough-3.png);"}
+                .picture.padding{:style => "background-image:url(./images/breakthrough-3.png);"}
     %a.button{:href => "applications.html"}
         Learn more about Applications
 .block.orange
     .news.shadow
-        .icon{:style => "background-image:url(./images/docs.png)"}
+        .icon{:style => "background-image:url(./images/docs.svg)"}
         .logo{:style => "background-image:url(./images/nature-logo.png)"}
         .description
             "News Protein Sequencing Method Could Transform Biological Research"
-        %a.button{:href => "nature.html"}
+        %a.button{:href => "#"}
             View Press Release
     .news.shadow
-        .icon{:style => "background-image:url(./images/docs.png)"}
-        .logo{:style => "background-image:url(./images/acs-logo.png)"}
+        .icon{:style => "background-image:url(./images/docs.svg)"}
+        .logo{:style => "background-image:url(./images/acs-logo.svg)"}
         .description
             "News Protein Sequencing Method Could Transform Biological Research"
-        %a.button{:href => "acs.html"}
+        %a.button{:href => "#"}
             View Press Release

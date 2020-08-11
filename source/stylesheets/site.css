@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 body {
@@ -18,12 +23,12 @@ a {
 }
 
 h1 {
-  font-size: 60px;
-  line-height: 78px;
-  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 600;
   color: black;
-  margin-block-start: 72px;
-  margin-block-end: 72px;
+  margin-block-start: 0;
+  margin-block-end: 60px;
   width: 100%;
 }
 
@@ -37,23 +42,26 @@ h1.white {
 
 h2 {
   font-size: 30px;
-  font-weight: 300;
+  line-height: 42px;
+  font-weight: 400;
   color: #404040;
-  margin-block-start: 60px;
-  margin-block-end: 60px;
+  margin-block-start: 0;
+  margin-block-end: 30px;
   width: 100%;
 }
 
 h3 {
   font-size: 24px;
+  line-height: 36px;
   font-weight: 700;
   color: black;
-  margin-block-start: 60px;
-  margin-block-end: 60px;
+  margin-block-start: 0;
+  margin-block-end: 30px;
   width: 100%;
 }
 
 p {
+  color: #404040;
   line-height: 30px;
 }
 
@@ -71,16 +79,17 @@ p a:hover {
 .nav-bar {
   display: flex;
   align-items: flex-end;
-  background-color: #002e5f;
+  background-color: #3A437E;
   height: 90px;
   padding: 0 60px;
   transition: all 0.25s;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .nav-bar.scrolled {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.10);
 }
 
 .nav-bar .logo {
@@ -122,7 +131,7 @@ p a:hover {
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   row-gap: 24px;
-  background-color: #002e5f;
+  background-color: #3A437E;
   color: white;
   padding: 24px 60px;
 }
@@ -188,37 +197,42 @@ p a:hover {
   flex-direction: column;
 }
 
-.block > * {
-  max-width: 1200px;
+.block.collapse {
+  padding-bottom: 0;
 }
 
-.stars {
+.block > * {
+  max-width: 900px;
+}
+
+.purple {
   content: '';
-  background: url(../images/stars.png);
+  background-color: #3A437E;
   background-size: contain;
   background-repeat: repeat-x;
   background-origin: border-box;
   width: 100%;
   height: 600px;
+  padding-bottom: 0;
 }
 
-.stars + * {
+.purple + * {
   margin-top: -600px;
 }
 
-.stars.short {
+.purple.short {
   height: 480px;
 }
 
-.stars.short + * {
+.purple.short + * {
   margin-top: -480px;
 }
 
-.block.stars {
+.block.purple {
   height: fit-content;
 }
 
-.block.stars + * {
+.block.purple + * {
   margin-top: 0;
 }
 
@@ -227,29 +241,34 @@ p a:hover {
 }
 
 .grey {
-  background-color: #ECF1F6;
+  background-color: #F0F5FF;
 }
 
 .box {
   background-color: white;
-  padding: 60px;
+  padding: 48px;
 }
 
 .box h1,
 .box h2 {
   margin-block-start: 0;
+  margin-block-end: 48px;
 }
 
 .shadow {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.10);
 }
 
 .grid-h {
   display: grid;
   grid-auto-columns: 1fr;
-  column-gap: 120px;
+  column-gap: 48px;
   justify-content: space-between;
   width: 100%
+}
+
+.grid-h.expand {
+  margin-bottom: 78px;
 }
 
 .grid-h > * {
@@ -262,7 +281,20 @@ p a:hover {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: space-between;
+  transition: all 0.5s;
+  pointer-events: none;
+}
+
+.grid-h.padding .item {
+  padding: 30px;
+}
+
+.grid-h.clickable .item {
+  pointer-events: all;
+}
+
+.grid-h.clickable .item:hover {
+  background-color: #F0F5FF;
 }
 
 .grid-h .item .icon {
@@ -276,33 +308,23 @@ p a:hover {
 
 .grid-h .item .icon.frame {
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border: 2px #404040 solid;
   align-self: center;
+  padding: 30px;
+  background-origin: content-box;
 }
 
 .grid-h .item .title {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 400;
   color: #404040;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 }
 
 .grid-h .item .description {
-  font-size: 24px;
   color: #404040;
-  margin-bottom: 24px;
-}
-
-.grid-h .item .button {
-  font-size: 24px;
-  border-radius: 4px;
-  border: 2px #404040 solid;
-  padding: 6px 18px;
-  transition: all 0.25s;
-  background-color: white;
-  margin-top: auto;
 }
 
 .box .item .button:hover {
@@ -320,6 +342,7 @@ p a:hover {
   justify-content: center;
   column-gap: 60px;
   row-gap: 30px;
+  margin-bottom: 60px;
 }
 
 .fluorosequencing .table .logo {
@@ -328,11 +351,10 @@ p a:hover {
 }
 
 .logo.shadow {
-  width: 220px;
+  width: 300px;
   border-radius: 16px;
   display: grid;
-  grid-template-rows: 60px;
-  grid-auto-rows: 30px;
+  grid-template-rows: 60px 48px;
   row-gap: 12px;
   padding: 24px;
 }
@@ -373,18 +395,18 @@ p a:hover {
 
 .fluorosequencing .grid-h .item .icon {
   border-radius: 16px;
-  border: 1px black solid;
+  border: 1px #979797 solid;
   overflow: hidden;
   height: 160px;
-  margin: 30px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .fluorosequencing .grid-h .item .title {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 24px;
   margin: 12px;
 }
 
@@ -394,8 +416,9 @@ p a:hover {
 
 .zigzag {
   display: grid;
-  grid-auto-rows: 1fr;
+  grid-auto-rows: auto;
   row-gap: 48px;
+  margin-bottom: 78px;
 }
 
 .zig,
@@ -403,10 +426,10 @@ p a:hover {
   display: grid;
   grid-template-columns: 1fr 420px;
   align-items: center;
-  column-gap: 180px;
-  font-size: 30px;
-  line-height: 42px;
-  font-weight: 300;
+  column-gap: 60px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
 }
 
 .zag {
@@ -419,39 +442,44 @@ p a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 30px;
+  border-radius: 48px;
   overflow: hidden;
   align-self: stretch;
   justify-self: stretch;
-  padding: 30px;
-  background: linear-gradient(90deg, rgba(236,241,246,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(90deg, #F0F5FF 0%, white 100%);
 }
 
 .zigzag .zig .gradient {
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,241,246,1) 100%);
+  background: linear-gradient(90deg, white 0%, #F0F5FF 100%);
 }
 
 .block.grey .zigzag .zig .gradient {
-  background: linear-gradient(90deg, rgba(236,241,246,1) 0%, rgba(255,255,255,1) 100%);  
+  background: linear-gradient(90deg, #F0F5FF 0%, white 100%);  
 }
 
 .block.grey .zigzag .zag .gradient {
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,241,246,1) 100%);  
+  background: linear-gradient(90deg, white 0%, #F0F5FF 100%);  
 }
 
-.zigzag .zig .picture ,
-.zigzag .zag .picture {
+.zigzag .picture {
   min-height: 240px;
   width: 100%;
   height: 100%;
+  padding: 24px;
+  background-origin: content-box;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.zigzag .picture.padding {
+  padding: 48px;
+}
+
 .zigzag .zig p,
 .zigzag .zag p {
-  font-size: 18px;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .news {
@@ -460,7 +488,7 @@ p a:hover {
   width: 100%;
   padding: 48px;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 366pxpx 1fr auto;
   column-gap: 30px;
   row-gap: 12px;
   margin-bottom: 24px;
@@ -472,9 +500,9 @@ p a:hover {
 
 .news .icon {
   grid-column: 1;
-  width: 72px;
+  width: 100%;
   background-size: contain;
-  background-position: center;
+  background-position-y: top;
   background-repeat: no-repeat;
 }
 
@@ -482,14 +510,13 @@ p a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   grid-column: 2;
-  height: 90px;
+  height: 60px;
 }
 
 .news .description {
   grid-column: 2;
-  color: #999;
-  font-weight: 300;
-  font-size: 30px;
+  font-size: 24px;
+  line-height: 36px;
 }
 .news .button {
   grid-column: 3;
@@ -499,10 +526,8 @@ p a:hover {
 
 .button {
   background-color: #FF7C00;
-  padding: 12px 18px;
-  border-radius: 4px;
+  padding: 18px 30px;
   transition: all 0.25s;
-  margin: 60px;
 }
 
 .button:hover {
@@ -516,14 +541,13 @@ a.button {
 /* TECHNOLOGY */
 
 .key-concept {
-  height: 300px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  margin-top: -30px;
+  width: 100%;
 }
 
 .grid-h .item .title.small {
   font-size: 18px;
+  line-height: 24px;
 }
 
 .rule {
@@ -537,9 +561,13 @@ a.button {
 .diagram-big {
   background-size: contain;
   background-repeat: no-repeat;
-  width: 1200px;
-  height: 720px;
+  width: 100%;
   margin: 60px 0;
+}
+
+.columns {
+  columns: 2;
+  column-gap: 60px;
 }
 
 .comparison {
@@ -583,11 +611,11 @@ a.button {
 }
 
 .comparison .table.cross li:before {
-  background-image: url('../images/cross.png');
+  background-image: url('../images/cross.svg');
 }
 
 .comparison .table.check li:before {
-  background-image: url('../images/check.png');
+  background-image: url('../images/check.svg');
 }
 
 .comparison .table li:before {
@@ -600,6 +628,49 @@ a.button {
   background-repeat: no-repeat;
 }
 
+.button.video {
+  color: white;
+  background-color: #3A437E;
+  position: relative;
+  padding-left: 60px;
+}
+
+.button.video:hover {
+  background-color: #2e3667;
+}
+
+.button.video::before {
+  content: '';
+  background-image: url(../images/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 12px;
+  top: 9px;
+}
+
+.videoPlayer {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.85);
+}
+
+.videoPlayer.hidden {
+  display: none;
+}
+
+.videoPlayer video {
+  width: calc(100% - 144px);
+}
+
 /* APPLICATIONS */
 
 .multiply {
@@ -608,17 +679,18 @@ a.button {
 
 .additional {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 150px 1fr;
   column-gap: 30px;
   row-gap: 60px;
 }
 
 .additional .picture {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 2px #003264 solid;
-  padding: 48px;
+  padding: 30px;
+  background-color: white;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -631,6 +703,16 @@ a.button {
 }
 
 /* ABOUT */
+
+.erisyon-bar {
+  height: 48px;
+  background-image: url(../images/erisyon-bar.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  margin-bottom: 60px;
+  margin-left: -48px
+}
 
 .team {
   display: grid;
@@ -670,13 +752,9 @@ a.button {
   padding: 60px;
 }
 
-.papers h3 {
-  margin-block-start: 0;
-}
-
 .papers .paper {
   display: grid;
-  grid-template-columns: 72px 1fr auto;
+  grid-template-columns: 36px 1fr 240px;
   column-gap: 30px;
   border-bottom: 2px #DDD solid;
   padding: 30px 0;
@@ -690,16 +768,23 @@ a.button {
 .papers .paper .icon {
   align-self: stretch;
   background-size: contain;
-  background-repeaT: no-repeat;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  min-height: 72px;
 }
 
 .papers .paper .description {
-  font-weight: 300;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #404040;
 }
 
 .papers .paper .button {
-  margin: 0 60px;
+  margin: 0;
+  width: 240px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 /* CONTACT */
@@ -707,10 +792,11 @@ a.button {
 input[type=text],
 input[type=email],
 textarea {
+  background-color: rgba(255, 255, 255, 0.7);;
   width: 100%;
   border: 1px #D5D5D6 solid;
-  margin: 12px;
-  padding: 12px;
+  margin: 10px;
+  padding: 10px;
   height: 48px;
   border-radius: 4px;
   box-sizing: border-box;
@@ -728,6 +814,7 @@ input[type=email]::placeholder,
 textarea::placeholder {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  color: #9D9EA0;
 }
 
 input[type=submit] {
@@ -735,10 +822,9 @@ input[type=submit] {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   background-color: #FF7C00;
-  padding: 12px 18px;
-  border-radius: 4px;
+  padding: 18px 18px;
   transition: all 0.25s;
-  margin: 12px auto;
+  margin: 40px auto auto auto;
   border: none;
   width: 240px;
   display: flex;

@@ -1,4 +1,6 @@
 items:
+  - name: Home
+    url: index.html
   - name: Technology
     url: technology.html
   - name: Applications
