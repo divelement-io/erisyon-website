@@ -1,11 +1,11 @@
 items:
   - name: Home
-    url: index.html
+    url: home
   - name: Technology
-    url: technology.html
+    url: technology
   - name: Applications
-    url: applications.html
+    url: applications
   - name: About
-    url: about.html
+    url: about
   - name: Contact
-    url: contact.html
+    url: contact
