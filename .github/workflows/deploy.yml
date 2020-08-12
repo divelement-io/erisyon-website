@@ -2,9 +2,7 @@ name: Deploy Middleman to GH Pages
  
 on:
   push:
-    branches:
-      - staging
-      - feature/staging # just so we can test the workflow while developing it
+    tags: '*'
  
 jobs:
   build:
