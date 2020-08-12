@@ -1,6 +1,6 @@
 items:
   - name: Home
-    url: home
+    url: /
   - name: Technology
     url: technology
   - name: Applications
