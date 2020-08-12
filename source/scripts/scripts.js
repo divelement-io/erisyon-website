@@ -25,9 +25,16 @@ function hideVideo(e) {
     }
 }
 
-function scrollTo(id) {
+function scroll(id) {
     document.getElementById(id).scrollIntoView({behavior:'smooth'})
-}
+    const target = document.getElementById(id)
+    const nav = document.querySelector('.nav-bar')
+
+    window.scrollTo({
+            top: target.getBoundingClientRect().top - nav.getBoundingClientRect().height,
+            behavior: 'smooth'
+    })
+} 
 
 function toggleMenu() {
     const navBar = document.querySelector('.nav-bar')
