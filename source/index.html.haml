@@ -3,13 +3,13 @@ title: Erisyon
 section: Home
 ---
 .purple
-.block.collapse
     %h1.white.center
         Introducing the world’s first single molecule protein sequencer
+.block.half.collapse
     .box.shadow
         %h2.center
             Erisyon’s next generation proteomics will transform our approach to disease management
-        .grid-h.padding.clickable
+        .home-grid
             %a.item{:href => "javascript:scrollTo('breakthrough-applications')"}
                 .icon.frame{:style => "background-image:url(./images/icon-detect.svg);"}
                 .item-content
@@ -45,7 +45,7 @@ section: Home
         .diagram{:style => "background-image:url(./images/fluorosequencing-detail.png)"}
     %h3.center
         Next gen genomic advantages now for proteomics
-    .grid-h
+    .fluorosequencing-grid
         .item
             .icon{:style => "background-image:url(./images/icon-sensitivity.svg);"}
             .item-content
@@ -74,17 +74,20 @@ section: Home
         Breakthrough Applications
     .zigzag
         .zig
-            Measuring healthy vs pathological alpha-synuclean protein for Parkinson’s diagnostics
             .gradient
                 .picture.padding{:style => "background-image:url(./images/breakthrough-1.png);"}
+            .content
+                Measuring healthy vs pathological alpha-synuclean protein for Parkinson’s diagnostics
         .zag
             .gradient
                 .picture.padding{:style => "background-image:url(./images/breakthrough-2.png);"}
-            Direct detection of antigen proteins for better immune-oncology treatments
+            .content
+                Direct detection of antigen proteins for better immune-oncology treatments
         .zig    
-            Revealing the camouflage viruses use to evade the immune system
             .gradient
                 .picture.padding{:style => "background-image:url(./images/breakthrough-3.png);"}
+            .content
+                Revealing the camouflage viruses use to evade the immune system
     %a.button{:href => "applications.html"}
         Learn more about Applications
 .block.orange

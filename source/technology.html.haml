@@ -3,9 +3,9 @@ title: Erisyon - Technology
 section: Technology
 ---
 .purple
-.block.collapse
     %h1.white.center
         Fluorosequencing is a proteomics game changer
+.block.half.collapse
     .box.shadow
         %h2
             %b
@@ -16,7 +16,7 @@ section: Technology
 .block
     %h3.center
         Example: Cataloging all the proteins of a single cell
-    .grid-h.expand
+    .technology-grid
         .item
             .title.small
                 1. Proteome digested and captured
@@ -49,31 +49,35 @@ section: Technology
         Features and benefits
     .zigzag
         .zig
-            %div
-                Single molecule sensitivity
-                %p
-                    The ability to image and sequence individual peptide molecules makes the technology immediately 1 million times more sensitive than the current peptide mass- spectrometers. This offers the benefit of using extremely low sample amounts, such as clinical biopsies. This smaller sample requirements, assuming a factor of at least 1000, roughly translates to a difference between needing 1/4th of a pancreas or sampling with a needle for biopsy material.
             .gradient
                 .picture{:style => "background-image:url(./images/icon-sensitivity.svg);"}
+            .content
+                .title
+                    Single molecule sensitivity
+                %p
+                    The ability to image and sequence individual peptide molecules makes the technology immediately 1 million times more sensitive than the current peptide mass- spectrometers. This offers the benefit of using extremely low sample amounts, such as clinical biopsies. This smaller sample requirements, assuming a factor of at least 1000, roughly translates to a difference between needing 1/4th of a pancreas or sampling with a needle for biopsy material.
         .zag   
             .gradient
                 .picture{:style => "background-image:url(./images/icon-thoroughput.svg);"}
-            %div
-                Massively parallel architecture
+            .content
+                .title
+                    Massively parallel architecture
                 %p
                     The ability to sequence and independently measure fluorescence from individual peptide molecules tethered to an imaging surface, provides a scalable architecture to achieve a throughput to identify billions of peptide molecules on a single glass slide.
-        .zig   
-            %div
-                Characterize highly heterogeneous samples
-                %p
-                    Since every single molecule measurement is independent of another, fluorosequencing platform can discriminate peptides and proteins across a large range of heterogeneity and abundances (up to 10^6 range). This means that if there is a single peptide, mixed with 1 million copies of a different peptide, the two peptides can both be identified. This helps identifying peptides existing in an extremely diverse backgrounds, such as antigens on tumor surfaces or discriminating low abundant phosphorylation event on a protein.
+        .zig
             .gradient
                 .picture{:style => "background-image:url(./images/icon-heterogeneous.svg);"}
+            .content
+                .title
+                    Characterize highly heterogeneous samples
+                %p
+                    Since every single molecule measurement is independent of another, fluorosequencing platform can discriminate peptides and proteins across a large range of heterogeneity and abundances (up to 10^6 range). This means that if there is a single peptide, mixed with 1 million copies of a different peptide, the two peptides can both be identified. This helps identifying peptides existing in an extremely diverse backgrounds, such as antigens on tumor surfaces or discriminating low abundant phosphorylation event on a protein.
         .zag   
             .gradient
                 .picture{:style => "background-image:url(./images/icon-quantification.svg);"}
-            %div
-                Digital quantification
+            .content
+                .title
+                    Digital quantification
                 %p
                     Unlike other proteomic technologies, where peptides and proteins are quantified relative to a standard (often using known concentrations of itself), quantification in fluorosequencing is done by counting molecular observations. This type of counting statistics makes it possible to compare abundances between proteins in the same and across experiments without need for external calibrants.
 .block
