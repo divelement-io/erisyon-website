@@ -16,4 +16,4 @@ Get the environment ready by following these steps:
 
 We have a staging environment in https://erisyon.manas.dev/
 
-To make a new deploy to that environment, push your code to the `staging` branch of the repository. There's a Github Action that will take care of updating the relevant S3 bucket with the static site.
+To make a new deploy to that environment, push a tag (any tag) to the repository. There's a Github Action that will take care of updating the relevant S3 bucket with the static site.
