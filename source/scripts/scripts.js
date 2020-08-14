@@ -31,7 +31,7 @@ function scroll(id) {
     const nav = document.querySelector('.nav-bar')
 
     window.scrollTo({
-            top: target.getBoundingClientRect().top - nav.getBoundingClientRect().height,
+            top: target.getBoundingClientRect().top - nav.getBoundingClientRect().height + window.scrollY,
             behavior: 'smooth'
     })
 } 
