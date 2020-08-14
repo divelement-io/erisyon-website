@@ -16,6 +16,13 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  padding-top: 90px;
+}
+
+@media only screen and (max-device-width: 840px) {
+  body {
+    padding-top: 48px;
+  }
 }
 
 a {
@@ -114,10 +121,11 @@ p a:hover {
   display: flex;
   align-items: flex-end;
   background-color: #3A437E;
+  width: 100vw;
   height: 90px;
   padding: 0 60px;
   transition: all 0.25s;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1;
 }
@@ -130,8 +138,9 @@ p a:hover {
   }
 }
 
+.nav-bar.show,
 .nav-bar.scrolled {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.10);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 3px 3px rgba(0,0,0,0.15);
 }
 
 .nav-bar .logo {
