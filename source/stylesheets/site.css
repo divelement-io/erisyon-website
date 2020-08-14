@@ -39,6 +39,7 @@ h1 {
   h1 {
     font-size: 30px;
     line-height: 42px;
+    margin-block-start: 42px;
     margin-block-end: 42px;
   }
 }

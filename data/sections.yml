@@ -2,10 +2,10 @@ items:
   - name: Home
     url: /
   - name: Technology
-    url: technology
+    url: /technology/
   - name: Applications
-    url: applications
+    url: /applications/
   - name: About
-    url: about
+    url: /about/
   - name: Contact
-    url: contact
+    url: /contact/
