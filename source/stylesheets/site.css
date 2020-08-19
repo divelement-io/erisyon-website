@@ -176,7 +176,7 @@ p a:hover {
 
 @media only screen and (max-device-width: 840px) {
   .nav-bar .buttons {
-    margin-top: 12px;
+    margin: 12px 0 18px 0;
     align-self: start;
     align-items: flex-end;
     flex-direction: column;
@@ -196,7 +196,6 @@ p a:hover {
 
 @media only screen and (max-device-width: 840px) {
   .nav-bar .nav-button {
-    font-size: 12px;
     display: none;
     padding: 12px 0 12px 18px;
   }
@@ -540,7 +539,7 @@ p a:hover {
 
 @media only screen and (max-device-width: 840px) {
   .zigzag .gradient .picture {
-    min-height: 180px;
+    width: 100%;
     padding: 18px;
   }
 
@@ -924,7 +923,7 @@ a.button {
 /* TECHNOLOGY */
 
 .key-concept {
-  margin-top: -30px;
+  margin-bottom: 12px;
   width: 100%;
 }
 

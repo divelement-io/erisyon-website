@@ -1,182 +1,230 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1116px" height="141px" viewBox="0 0 1116 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Group 8</title>
-    <defs>
-        <radialGradient cx="50%" cy="45.8079375%" fx="50%" fy="45.8079375%" r="115.999608%" gradientTransform="translate(0.500000,0.458079),scale(1.000000,0.338144),rotate(90.000000),translate(-0.500000,-0.458079)" id="radialGradient-1">
-            <stop stop-color="#FFFFFF" offset="0%"></stop>
-            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
-        </radialGradient>
-        <path d="M83,98 L82.999,295.5 L107.5,295.5 L66.5,340.5 L25.5,295.5 L47.999,295.5 L48,98 L83,98 Z" id="path-2"></path>
-    </defs>
-    <g id="website-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-8" transform="translate(0.000000, 0.500000)">
-            <g id="arrow_fade_down-copy" transform="translate(519.500000, 70.000000) rotate(-90.000000) translate(-519.500000, -70.000000) translate(450.000000, -107.000000)">
-                <use fill="#FF8427" xlink:href="#path-2"></use>
-                <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
-            </g>
-            <g id="icon_server_search" transform="translate(505.000000, 24.000000)" fill="#000000" fill-rule="nonzero">
-                <path d="M77.2957613,57.4164274 C88.2665763,57.4164274 97.1662618,66.3145761 97.1662618,77.2913446 C97.1662618,81.984034 95.5397049,86.296823 92.8201357,89.6968724 L105.353197,102.230155 C106.215601,103.092559 106.215601,104.490793 105.353197,105.353197 C104.586615,106.119778 103.396662,106.204954 102.535998,105.608724 L102.230155,105.353197 L89.6970551,92.820273 C86.2975183,95.5399858 81.9859055,97.1662618 77.2957613,97.1662618 C66.3146727,97.1662618 57.4164274,88.2710892 57.4164274,77.2913446 C57.4164274,66.3116001 66.3146727,57.4164274 77.2957613,57.4164274 Z M44.1664826,0 C68.4337978,0 88.3329653,8.3798152 88.3329653,19.8749172 L88.3329653,19.8749172 L88.3329653,44.1664826 C88.3329653,45.3861064 87.3442649,46.3748068 86.1246411,46.3748068 C85.0405312,46.3748068 84.1388791,45.5936114 83.9518961,44.5634317 L83.916317,44.1664826 L83.9176624,28.7573952 C76.7408147,35.4399321 61.5815513,39.7498344 44.1664826,39.7498344 C26.751414,39.7498344 11.5921506,35.4399321 4.41530287,28.7573952 L4.41664826,37.5423936 L4.41664826,37.5423936 C4.41664826,45.5593534 22.0932916,53.0006625 44.1664826,53.0006625 C46.3224071,53.0006625 48.4835033,52.9261419 50.6427652,52.7804249 C51.8596212,52.6983058 52.9126486,53.6181918 52.9947677,54.8350478 C53.0768868,56.0519038 52.1570008,57.1049311 50.9401448,57.1870503 C48.6830133,57.339372 46.4227898,57.4173108 44.1664826,57.4173108 C26.751414,57.4173108 11.5921506,53.1074085 4.41530287,46.4248715 L4.41664826,57.4164274 L4.41664826,57.4164274 C4.41664826,65.4333873 22.0932916,72.8746964 44.1664826,72.8746964 C45.3861064,72.8746964 46.3748068,73.8633967 46.3748068,75.0830205 C46.3748068,76.3026442 45.3861064,77.2913446 44.1664826,77.2913446 C26.751414,77.2913446 11.5921506,72.9814424 4.41530287,66.2989054 L4.41664826,77.2913446 C4.41664826,85.3083045 22.0932916,92.7496135 44.1664826,92.7496135 C45.3861064,92.7496135 46.3748068,93.7383139 46.3748068,94.9579377 C46.3748068,96.1775614 45.3861064,97.1662618 44.1664826,97.1662618 C20.3586299,97.1662618 0.766690469,89.1114111 0.0219590159,77.9513623 L0,77.2913446 L0,19.8749172 L0.00595421924,19.531004 C0.398420165,8.21305688 20.1418407,0 44.1664826,0 Z M77.2957613,61.8330757 C68.7535787,61.8330757 61.8330757,68.7511891 61.8330757,77.2913446 C61.8330757,85.8315002 68.7535787,92.7496135 77.2957613,92.7496135 C81.5449194,92.7496135 85.394818,91.0329133 88.1891695,88.2548117 C88.1986982,88.2426222 88.2095523,88.2315409 88.2205466,88.2205466 L88.2479569,88.1960531 C91.0297508,85.4007278 92.7496135,81.5468448 92.7496135,77.2913446 C92.7496135,68.7539944 85.8274995,61.8330757 77.2957613,61.8330757 Z M44.1664826,4.41664826 C22.1004245,4.41664826 4.41664826,11.8635315 4.41664826,19.8749172 C4.41664826,27.8918771 22.0932916,35.3331861 44.1664826,35.3331861 C66.2396737,35.3331861 83.916317,27.8918771 83.916317,19.8749172 C83.916317,11.8635315 66.2325408,4.41664826 44.1664826,4.41664826 Z" id="Combined-Shape"></path>
-            </g>
-            <g id="incomplete" transform="translate(0.000000, 1.000000)">
-                <g id="word" transform="translate(0.000000, 77.000000)">
-                    <g id="letter_panel">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="9.5" y="51">H</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(52.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36"></text>
-                    </g>
-                    <g id="letter_panel" transform="translate(104.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="10" y="51">D</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(156.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="10" y="51">G</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(208.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36"></text>
-                    </g>
-                    <g id="letter_panel" transform="translate(260.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="9.5" y="51">H</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(312.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36"></text>
-                    </g>
-                    <g id="letter_panel" transform="translate(364.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="10" y="51">G</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="word-copy-2">
-                    <g id="letter_panel">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="13" y="51">S</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(52.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36"></text>
-                    </g>
-                    <g id="letter_panel" transform="translate(104.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="8" y="51">N</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(156.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="17" y="51">I</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(208.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="11.5" y="51">C</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-            <g id="complete" transform="translate(705.000000, 1.000000)">
-                <g id="word" transform="translate(0.000000, 77.000000)">
-                    <g id="letter_panel">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="9.5" y="51">H</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(52.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="13.5" y="51">E</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(104.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="10" y="51">D</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(156.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="10" y="51">G</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(208.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="13.5" y="51">E</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(260.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="9.5" y="51">H</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(312.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="9" y="51">O</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(364.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="10" y="51">G</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="word-copy-2">
-                    <g id="letter_panel">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="13" y="51">S</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(52.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="9" y="51">O</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(104.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="8" y="51">N</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(156.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="17" y="51">I</tspan>
-                        </text>
-                    </g>
-                    <g id="letter_panel" transform="translate(208.000000, 0.000000)">
-                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="46" height="61"></rect>
-                        <text id="S" font-family="OpenSans-ExtraBold, Open Sans" font-size="36" font-weight="600" line-spacing="36" fill="#404040">
-                            <tspan x="11.5" y="51">C</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1119 142" style="enable-background:new 0 0 1119 142;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st2{mask:url(#mask-3_1_);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FF8427;}
+	.st4{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st5{mask:url(#mask-5_1_);fill-rule:evenodd;clip-rule:evenodd;fill:url(#Oval_1_);}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#979797;}
+	.st7{fill:#404040;}
+</style>
+<g id="website-design">
+	<g id="erisyon_website_update_tech_v01" transform="translate(-116.000000, -655.000000)">
+		<g id="detect3-copy" transform="translate(82.000000, 446.000000)">
+			<g id="key-concept-image-1" transform="translate(80.000000, 255.000000)">
+				<g id="arrow-fade-middle" transform="translate(437.000000, 0.500000)">
+					<g id="Rectangle">
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-151.5" y="-166.5" width="395" height="395">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="-151.5" y="-166.5" width="395" height="395" id="mask-3_1_">
+						<g class="st0">
+							<rect id="path-2_1_" x="-44.5" y="-44.5" class="st1" width="250" height="139"/>
+						</g>
+					</mask>
+					<g id="arrow_fade_down-copy-4" class="st2">
+						
+							<g transform="translate(118.500000, 70.000000) rotate(-90.000000) translate(-118.500000, -70.000000) translate(48.000000, -66.000000)">
+							<path id="arrow_fade_down-copy" class="st3" d="M130-23.5l0,197.5h24.5l-41,45l-41-45H95l0-197.5H130z"/>
+							<g id="radial_fade" transform="translate(0.000000, 0.500000)">
+								<g id="Rectangle_1_">
+								</g>
+								<defs>
+									<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-88" y="-260.5" width="395" height="395">
+										<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+									</filter>
+								</defs>
+								<mask maskUnits="userSpaceOnUse" x="-88" y="-260.5" width="395" height="395" id="mask-5_1_">
+									<g class="st4">
+										
+											<rect id="path-4_1_" x="-19.5" y="20.5" transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 24.5003 206.5002)" class="st1" width="270" height="141"/>
+									</g>
+								</mask>
+								
+									<radialGradient id="Oval_1_" cx="104.0063" cy="80.2608" r="0.4522" gradientTransform="matrix(0 395 395 0 -31593.5 -41019.5)" gradientUnits="userSpaceOnUse">
+									<stop  offset="0.1867" style="stop-color:#FFFFFF"/>
+									<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+								</radialGradient>
+								<circle id="Oval" class="st5" cx="109.5" cy="63" r="197.5"/>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g id="icon_server_search" transform="translate(505.000000, 23.500000)">
+					<path id="Combined-Shape" d="M32.8,12.4c11,0,19.9,8.9,19.9,19.9c0,4.7-1.6,9-4.3,12.4l12.5,12.5c0.9,0.9,0.9,2.3,0,3.1
+						c-0.8,0.8-2,0.9-2.8,0.3l-0.3-0.3L45.2,47.8c-3.4,2.7-7.7,4.3-12.4,4.3c-11,0-19.9-8.9-19.9-19.9S21.8,12.4,32.8,12.4z
+						 M-0.3-45c24.3,0,44.2,8.4,44.2,19.9l0,0v24.3c0,1.2-1,2.2-2.2,2.2c-1.1,0-2-0.8-2.2-1.8l0-0.4l0-15.4
+						c-7.2,6.7-22.3,11-39.8,11s-32.6-4.3-39.8-11l0,8.8l0,0C-40.1,0.6-22.4,8-0.3,8C1.8,8,4,7.9,6.1,7.8c1.2-0.1,2.3,0.8,2.4,2.1
+						c0.1,1.2-0.8,2.3-2.1,2.4c-2.3,0.2-4.5,0.2-6.8,0.2c-17.4,0-32.6-4.3-39.8-11l0,11l0,0c0,8,17.7,15.5,39.7,15.5
+						c1.2,0,2.2,1,2.2,2.2c0,1.2-1,2.2-2.2,2.2c-17.4,0-32.6-4.3-39.8-11l0,11c0,8,17.7,15.5,39.7,15.5c1.2,0,2.2,1,2.2,2.2
+						c0,1.2-1,2.2-2.2,2.2c-23.8,0-43.4-8.1-44.1-19.2l0-0.7v-57.4l0-0.3C-44.1-36.8-24.4-45-0.3-45z M32.8,16.8
+						c-8.5,0-15.5,6.9-15.5,15.5s6.9,15.5,15.5,15.5c4.2,0,8.1-1.7,10.9-4.5c0,0,0,0,0,0l0,0c2.8-2.8,4.5-6.6,4.5-10.9
+						C48.2,23.8,41.3,16.8,32.8,16.8z M-0.3-40.6c-22.1,0-39.7,7.4-39.7,15.5c0,8,17.7,15.5,39.7,15.5s39.7-7.4,39.7-15.5
+						C39.4-33.1,21.7-40.6-0.3-40.6z"/>
+				</g>
+				<g id="incomplete" transform="translate(0.000000, 0.500000)">
+					<g id="word" transform="translate(0.000000, 77.000000)">
+						<g id="letter_panel">
+							<rect id="Rectangle_2_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<polygon id="H" class="st7" points="-25,0 -25,-10.5 -17,-10.5 -17,0 -10,0 -10,-25.7 -17,-25.7 -17,-16.2 -25,-16.2 
+								-25,-25.7 -32,-25.7 -32,0 							"/>
+						</g>
+						<g id="letter_panel_1_" transform="translate(52.000000, 0.000000)">
+							<rect id="Rectangle_3_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+						</g>
+						<g id="letter_panel_2_" transform="translate(104.000000, 0.000000)">
+							<rect id="Rectangle_4_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="D" class="st7" d="M-23.1,0c4.3,0,7.6-1.2,10-3.5s3.5-5.6,3.5-9.9c0-4-1.1-7-3.4-9.1s-5.4-3.2-9.6-3.2l0,0h-8.9V0
+								H-23.1z M-22.9-5.7h-1.5v-14.4h2c1.9,0,3.3,0.6,4.2,1.7s1.4,2.9,1.4,5.2c0,2.5-0.5,4.4-1.5,5.6S-20.8-5.7-22.9-5.7L-22.9-5.7
+								z"/>
+						</g>
+						<g id="letter_panel_3_" transform="translate(156.000000, 0.000000)">
+							<rect id="Rectangle_5_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="G" class="st7" d="M-20.1,0.4c3.6,0,6.9-0.5,9.9-1.5l0,0V-15h-11.1v5.4h4.6v4c-0.9,0.2-1.8,0.3-2.8,0.3
+								c-1.9,0-3.3-0.6-4.3-1.9s-1.5-3.1-1.5-5.5c0-2.4,0.6-4.3,1.7-5.7s2.7-2,4.7-2c2.2,0,4.2,0.5,6.1,1.4l0,0l2.2-5.4
+								c-1.1-0.5-2.3-0.9-3.8-1.2s-3-0.5-4.6-0.5c-4.3,0-7.6,1.2-9.9,3.5s-3.6,5.5-3.6,9.7c0,4.3,1.1,7.5,3.2,9.8S-24,0.4-20.1,0.4z
+								"/>
+						</g>
+						<g id="letter_panel_4_" transform="translate(208.000000, 0.000000)">
+							<rect id="Rectangle_6_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+						</g>
+						<g id="letter_panel_5_" transform="translate(260.000000, 0.000000)">
+							<rect id="Rectangle_7_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<polygon id="H_1_" class="st7" points="-25,0 -25,-10.5 -17,-10.5 -17,0 -10,0 -10,-25.7 -17,-25.7 -17,-16.2 -25,-16.2 
+								-25,-25.7 -32,-25.7 -32,0 							"/>
+						</g>
+						<g id="letter_panel_6_" transform="translate(312.000000, 0.000000)">
+							<rect id="Rectangle_8_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+						</g>
+						<g id="letter_panel_7_" transform="translate(364.000000, 0.000000)">
+							<rect id="Rectangle_9_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="G_1_" class="st7" d="M-20.1,0.4c3.6,0,6.9-0.5,9.9-1.5l0,0V-15h-11.1v5.4h4.6v4c-0.9,0.2-1.8,0.3-2.8,0.3
+								c-1.9,0-3.3-0.6-4.3-1.9s-1.5-3.1-1.5-5.5c0-2.4,0.6-4.3,1.7-5.7s2.7-2,4.7-2c2.2,0,4.2,0.5,6.1,1.4l0,0l2.2-5.4
+								c-1.1-0.5-2.3-0.9-3.8-1.2s-3-0.5-4.6-0.5c-4.3,0-7.6,1.2-9.9,3.5s-3.6,5.5-3.6,9.7c0,4.3,1.1,7.5,3.2,9.8S-24,0.4-20.1,0.4z
+								"/>
+						</g>
+					</g>
+					<g id="word-copy-2">
+						<g id="letter_panel_8_">
+							<rect id="Rectangle_10_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="S" class="st7" d="M-21.9,0.4c2.1,0,3.8-0.3,5.4-1s2.7-1.6,3.5-2.9s1.2-2.7,1.2-4.2c0-1.7-0.4-3.2-1.3-4.3
+								s-2.4-2.2-4.6-3.2c-2.3-1.1-3.7-1.8-4.2-2.2s-0.8-0.8-0.8-1.4c0-0.5,0.2-0.9,0.6-1.2s1.1-0.5,2-0.5c1.7,0,3.8,0.6,6.2,1.7
+								l0,0l2.1-5.4c-2.8-1.2-5.5-1.8-8.1-1.8c-3,0-5.4,0.7-7.1,2s-2.6,3.2-2.6,5.5c0,1.3,0.2,2.4,0.6,3.3c0.4,0.9,1,1.7,1.9,2.5
+								s2.1,1.5,3.8,2.2c1.9,0.8,3,1.4,3.4,1.7s0.7,0.5,0.9,0.8s0.3,0.6,0.3,0.9c0,0.6-0.2,1-0.7,1.4s-1.2,0.5-2.3,0.5
+								c-1.2,0-2.5-0.2-3.9-0.6s-2.8-0.9-4.1-1.6l0,0v6.2c1.3,0.6,2.5,1,3.6,1.3S-23.6,0.4-21.9,0.4z"/>
+						</g>
+						<g id="letter_panel_9_" transform="translate(52.000000, 0.000000)">
+							<rect id="Rectangle_11_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+						</g>
+						<g id="letter_panel_10_" transform="translate(104.000000, 0.000000)">
+							<rect id="Rectangle_12_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="N" class="st7" d="M-27.1,0v-11.6c0-1.5-0.1-3.7-0.3-6.5l0,0h0.2L-17.9,0h9.1v-25.7H-15v11.6c0,1.6,0.1,3.7,0.2,6.2
+								l0,0h-0.1l-9.4-17.9h-9.1V0H-27.1z"/>
+						</g>
+						<g id="letter_panel_11_" transform="translate(156.000000, 0.000000)">
+							<rect id="Rectangle_13_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<polygon id="I" class="st7" points="-17.5,0 -17.5,-25.7 -24.5,-25.7 -24.5,0 							"/>
+						</g>
+						<g id="letter_panel_12_" transform="translate(208.000000, 0.000000)">
+							<rect id="Rectangle_14_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="C" class="st7" d="M-18.8,0.4c2.7,0,5.1-0.5,7.3-1.4l0,0v-5.9c-1.1,0.4-2.2,0.8-3.2,1.1s-2.2,0.5-3.3,0.5
+								c-3.8,0-5.6-2.5-5.6-7.4c0-2.4,0.5-4.2,1.4-5.6s2.2-2,3.9-2c1.1,0,2.1,0.2,3.1,0.5c0.9,0.3,1.9,0.7,2.8,1.1l0,0l2.1-5.5
+								c-2.5-1.2-5.2-1.8-8-1.8c-2.5,0-4.8,0.5-6.6,1.6s-3.3,2.6-4.3,4.6s-1.5,4.4-1.5,7c0,4.3,1,7.5,3.1,9.8S-22.7,0.4-18.8,0.4z"
+								/>
+						</g>
+					</g>
+				</g>
+				<g id="complete" transform="translate(705.000000, 0.500000)">
+					<g id="word_1_" transform="translate(0.000000, 77.000000)">
+						<g id="letter_panel_13_">
+							<rect id="Rectangle_15_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<polygon id="H_2_" class="st7" points="-25,0 -25,-10.5 -17,-10.5 -17,0 -10,0 -10,-25.7 -17,-25.7 -17,-16.2 -25,-16.2 
+								-25,-25.7 -32,-25.7 -32,0 							"/>
+						</g>
+						<g id="letter_panel_14_" transform="translate(52.000000, 0.000000)">
+							<rect id="Rectangle_16_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<polygon id="E" class="st7" points="-12.8,0 -12.8,-5.7 -21.2,-5.7 -21.2,-10.5 -13.5,-10.5 -13.5,-16.1 -21.2,-16.1 
+								-21.2,-20.1 -12.8,-20.1 -12.8,-25.7 -28.1,-25.7 -28.1,0 							"/>
+						</g>
+						<g id="letter_panel_15_" transform="translate(104.000000, 0.000000)">
+							<rect id="Rectangle_17_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="D_1_" class="st7" d="M-23.1,0c4.3,0,7.6-1.2,10-3.5s3.5-5.6,3.5-9.9c0-4-1.1-7-3.4-9.1s-5.4-3.2-9.6-3.2l0,0h-8.9
+								V0H-23.1z M-22.9-5.7h-1.5v-14.4h2c1.9,0,3.3,0.6,4.2,1.7s1.4,2.9,1.4,5.2c0,2.5-0.5,4.4-1.5,5.6S-20.8-5.7-22.9-5.7
+								L-22.9-5.7z"/>
+						</g>
+						<g id="letter_panel_16_" transform="translate(156.000000, 0.000000)">
+							<rect id="Rectangle_18_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="G_2_" class="st7" d="M-20.1,0.4c3.6,0,6.9-0.5,9.9-1.5l0,0V-15h-11.1v5.4h4.6v4c-0.9,0.2-1.8,0.3-2.8,0.3
+								c-1.9,0-3.3-0.6-4.3-1.9s-1.5-3.1-1.5-5.5c0-2.4,0.6-4.3,1.7-5.7s2.7-2,4.7-2c2.2,0,4.2,0.5,6.1,1.4l0,0l2.2-5.4
+								c-1.1-0.5-2.3-0.9-3.8-1.2s-3-0.5-4.6-0.5c-4.3,0-7.6,1.2-9.9,3.5s-3.6,5.5-3.6,9.7c0,4.3,1.1,7.5,3.2,9.8S-24,0.4-20.1,0.4z
+								"/>
+						</g>
+						<g id="letter_panel_17_" transform="translate(208.000000, 0.000000)">
+							<rect id="Rectangle_19_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<polygon id="E_1_" class="st7" points="-12.8,0 -12.8,-5.7 -21.2,-5.7 -21.2,-10.5 -13.5,-10.5 -13.5,-16.1 -21.2,-16.1 
+								-21.2,-20.1 -12.8,-20.1 -12.8,-25.7 -28.1,-25.7 -28.1,0 							"/>
+						</g>
+						<g id="letter_panel_18_" transform="translate(260.000000, 0.000000)">
+							<rect id="Rectangle_20_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<polygon id="H_3_" class="st7" points="-25,0 -25,-10.5 -17,-10.5 -17,0 -10,0 -10,-25.7 -17,-25.7 -17,-16.2 -25,-16.2 
+								-25,-25.7 -32,-25.7 -32,0 							"/>
+						</g>
+						<g id="letter_panel_19_" transform="translate(312.000000, 0.000000)">
+							<rect id="Rectangle_21_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="O" class="st7" d="M-21,0.4c4.1,0,7.2-1.1,9.3-3.4s3.2-5.5,3.2-9.9c0-4.3-1.1-7.6-3.2-9.9s-5.2-3.4-9.3-3.4
+								c-4.1,0-7.2,1.1-9.3,3.4s-3.2,5.5-3.2,9.8c0,4.3,1.1,7.6,3.2,9.9S-25,0.4-21,0.4z M-21-5.4c-3.5,0-5.2-2.5-5.2-7.5
+								c0-5,1.7-7.5,5.2-7.5c1.7,0,3,0.6,3.9,1.8s1.3,3.1,1.3,5.7c0,2.6-0.4,4.4-1.3,5.6S-19.3-5.4-21-5.4z"/>
+						</g>
+						<g id="letter_panel_20_" transform="translate(364.000000, 0.000000)">
+							<rect id="Rectangle_22_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="G_3_" class="st7" d="M-20.1,0.4c3.6,0,6.9-0.5,9.9-1.5l0,0V-15h-11.1v5.4h4.6v4c-0.9,0.2-1.8,0.3-2.8,0.3
+								c-1.9,0-3.3-0.6-4.3-1.9s-1.5-3.1-1.5-5.5c0-2.4,0.6-4.3,1.7-5.7s2.7-2,4.7-2c2.2,0,4.2,0.5,6.1,1.4l0,0l2.2-5.4
+								c-1.1-0.5-2.3-0.9-3.8-1.2s-3-0.5-4.6-0.5c-4.3,0-7.6,1.2-9.9,3.5s-3.6,5.5-3.6,9.7c0,4.3,1.1,7.5,3.2,9.8S-24,0.4-20.1,0.4z
+								"/>
+						</g>
+					</g>
+					<g id="word-copy-2_1_">
+						<g id="letter_panel_21_">
+							<rect id="Rectangle_23_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="S_1_" class="st7" d="M-21.9,0.4c2.1,0,3.8-0.3,5.4-1s2.7-1.6,3.5-2.9s1.2-2.7,1.2-4.2c0-1.7-0.4-3.2-1.3-4.3
+								s-2.4-2.2-4.6-3.2c-2.3-1.1-3.7-1.8-4.2-2.2s-0.8-0.8-0.8-1.4c0-0.5,0.2-0.9,0.6-1.2s1.1-0.5,2-0.5c1.7,0,3.8,0.6,6.2,1.7
+								l0,0l2.1-5.4c-2.8-1.2-5.5-1.8-8.1-1.8c-3,0-5.4,0.7-7.1,2s-2.6,3.2-2.6,5.5c0,1.3,0.2,2.4,0.6,3.3c0.4,0.9,1,1.7,1.9,2.5
+								s2.1,1.5,3.8,2.2c1.9,0.8,3,1.4,3.4,1.7s0.7,0.5,0.9,0.8s0.3,0.6,0.3,0.9c0,0.6-0.2,1-0.7,1.4s-1.2,0.5-2.3,0.5
+								c-1.2,0-2.5-0.2-3.9-0.6s-2.8-0.9-4.1-1.6l0,0v6.2c1.3,0.6,2.5,1,3.6,1.3S-23.6,0.4-21.9,0.4z"/>
+						</g>
+						<g id="letter_panel_22_" transform="translate(52.000000, 0.000000)">
+							<rect id="Rectangle_24_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="O_1_" class="st7" d="M-21,0.4c4.1,0,7.2-1.1,9.3-3.4s3.2-5.5,3.2-9.9c0-4.3-1.1-7.6-3.2-9.9s-5.2-3.4-9.3-3.4
+								c-4.1,0-7.2,1.1-9.3,3.4s-3.2,5.5-3.2,9.8c0,4.3,1.1,7.6,3.2,9.9S-25,0.4-21,0.4z M-21-5.4c-3.5,0-5.2-2.5-5.2-7.5
+								c0-5,1.7-7.5,5.2-7.5c1.7,0,3,0.6,3.9,1.8s1.3,3.1,1.3,5.7c0,2.6-0.4,4.4-1.3,5.6S-19.3-5.4-21-5.4z"/>
+						</g>
+						<g id="letter_panel_23_" transform="translate(104.000000, 0.000000)">
+							<rect id="Rectangle_25_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="N_1_" class="st7" d="M-27.1,0v-11.6c0-1.5-0.1-3.7-0.3-6.5l0,0h0.2L-17.9,0h9.1v-25.7H-15v11.6
+								c0,1.6,0.1,3.7,0.2,6.2l0,0h-0.1l-9.4-17.9h-9.1V0H-27.1z"/>
+						</g>
+						<g id="letter_panel_24_" transform="translate(156.000000, 0.000000)">
+							<rect id="Rectangle_26_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<polygon id="I_1_" class="st7" points="-17.5,0 -17.5,-25.7 -24.5,-25.7 -24.5,0 							"/>
+						</g>
+						<g id="letter_panel_25_" transform="translate(208.000000, 0.000000)">
+							<rect id="Rectangle_27_" x="-44" y="-44.5" class="st6" width="46" height="61"/>
+							<path id="C_1_" class="st7" d="M-18.8,0.4c2.7,0,5.1-0.5,7.3-1.4l0,0v-5.9c-1.1,0.4-2.2,0.8-3.2,1.1s-2.2,0.5-3.3,0.5
+								c-3.8,0-5.6-2.5-5.6-7.4c0-2.4,0.5-4.2,1.4-5.6s2.2-2,3.9-2c1.1,0,2.1,0.2,3.1,0.5c0.9,0.3,1.9,0.7,2.8,1.1l0,0l2.1-5.5
+								c-2.5-1.2-5.2-1.8-8-1.8c-2.5,0-4.8,0.5-6.6,1.6s-3.3,2.6-4.3,4.6s-1.5,4.4-1.5,7c0,4.3,1,7.5,3.1,9.8S-22.7,0.4-18.8,0.4z"
+								/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
