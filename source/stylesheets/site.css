@@ -19,7 +19,7 @@ body {
   padding-top: 90px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   body {
     padding-top: 48px;
   }
@@ -42,7 +42,7 @@ h1 {
   margin-right: auto;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   h1 {
     font-size: 30px;
     line-height: 42px;
@@ -69,7 +69,7 @@ h2 {
   width: 100%;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   h2 {
     font-size: 20px;
     line-height: 30px;
@@ -86,7 +86,7 @@ h3 {
   width: 100%;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   h3 {
     font-size: 18px;
     line-height: 24px;
@@ -99,7 +99,7 @@ p {
   line-height: 30px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   p {
     color: #404040;
     line-height: 24px;
@@ -130,7 +130,7 @@ p a:hover {
   z-index: 1;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .nav-bar {
     padding: 0 18px;
     height: 48px;
@@ -148,7 +148,7 @@ p a:hover {
   margin-bottom: 12px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .nav-bar .logo {
     margin-top: 12px;
     margin-bottom: 0;
@@ -163,7 +163,7 @@ p a:hover {
   width: 120px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .nav-bar .logo img {
     width: unset;
     height: 24px;
@@ -174,7 +174,7 @@ p a:hover {
   display: flex;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .nav-bar .buttons {
     margin: 12px 0 18px 0;
     align-self: start;
@@ -194,7 +194,7 @@ p a:hover {
   border-bottom: 2px transparent solid;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .nav-bar .nav-button {
     display: none;
     padding: 12px 0 12px 18px;
@@ -220,7 +220,7 @@ p a:hover {
   border-right: none;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .nav-bar .nav-button.current {
     border-bottom: none;
     border-right: 2px #FF7C00 solid;
@@ -239,7 +239,7 @@ p a:hover {
   content: url('../images/close.svg');
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .nav-bar .menu {
     display: inline-block;
   }
@@ -258,7 +258,7 @@ p a:hover {
   padding: 24px 60px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .footer {
     padding: 12px 18px;
     row-gap: 0;
@@ -275,7 +275,7 @@ p a:hover {
   padding-right: 24px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .footer .row {
     padding-right: 0;
   }
@@ -289,7 +289,7 @@ p a:hover {
   width: 120px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .footer .logo img {
     width: unset;
     height: 24px;
@@ -301,7 +301,7 @@ p a:hover {
   transition: all 0.25s;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .footer .footer-button {
     display: none;
   }
@@ -348,7 +348,7 @@ p a:hover {
   flex-grow: 1;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .block {
     padding: 30px 18px;
   }
@@ -399,7 +399,7 @@ p a:hover {
   padding: 48px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .box {
     padding: 18px;
   }
@@ -411,7 +411,7 @@ p a:hover {
   margin-block-end: 48px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .box h1,
   .box h2 {
     margin-block-end: 24px;
@@ -430,7 +430,7 @@ p a:hover {
   margin-bottom: 78px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .zigzag {
     margin-bottom: 30px;
   }
@@ -446,7 +446,7 @@ p a:hover {
   font-weight: 400;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .zigzag .zig,
   .zigzag .zag {
     grid-template-columns: 1fr !important;
@@ -467,7 +467,7 @@ p a:hover {
   line-height: 36px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .zigzag .content {
     font-size: 18px;
     line-height: 24px;
@@ -500,7 +500,7 @@ p a:hover {
   background: linear-gradient(90deg, white 0%, #F0F5FF 100%);
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .zigzag .gradient {
     border-radius: 24px;
   }
@@ -537,7 +537,7 @@ p a:hover {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .zigzag .gradient .picture {
     width: 100%;
     padding: 18px;
@@ -570,7 +570,7 @@ p a:hover {
   width: 100%
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .home-grid {
     grid-auto-columns: unset;
     grid-template-columns: 1fr;
@@ -585,7 +585,7 @@ p a:hover {
   grid-row: 1;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .home-grid > * {
     grid-row: unset;
     grid-column: 1;
@@ -601,7 +601,7 @@ p a:hover {
   transition: all 0.5s;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .home-grid .item {
     grid-row: unset;
     display: grid;
@@ -625,7 +625,7 @@ p a:hover {
   height: 300px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .home-grid .item .icon {
     margin: 0;
     height: 180px;
@@ -643,7 +643,7 @@ p a:hover {
   background-origin: content-box;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .home-grid .item .icon.frame {
     width: 120px;
     height: 120px;
@@ -690,7 +690,7 @@ p a:hover {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .fluorosequencing .table .diagram {
     height: 420px;
   }
@@ -714,7 +714,7 @@ p a:hover {
   margin-bottom: 60px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .fluorosequencing .table {
     display: block;
     grid-auto-rows: auto;
@@ -726,7 +726,7 @@ p a:hover {
   grid-row: 1;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .fluorosequencing .table .logo {
     width: 100%;
   }
@@ -740,7 +740,7 @@ p a:hover {
   margin-bottom: 48px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .fluorosequencing-grid {
     grid-auto-columns: unset;
     grid-template-columns: 1fr;
@@ -755,7 +755,7 @@ p a:hover {
   grid-row: 1;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .fluorosequencing-grid > * {
     grid-row: unset;
     grid-column: 1;
@@ -771,7 +771,7 @@ p a:hover {
   transition: all 0.5s;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .fluorosequencing-grid .item {
     grid-row: unset;
     display: grid;
@@ -798,7 +798,7 @@ p a:hover {
   border-radius: 16px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .fluorosequencing-grid .item .icon {
     margin-bottom: 0;
     height: 120px;
@@ -815,7 +815,7 @@ p a:hover {
   margin: 12px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .fluorosequencing-grid .item .title {
     margin: 0;
   }
@@ -841,7 +841,7 @@ p a:hover {
   margin-bottom: 24px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .news {
     padding: 18px;
     grid-template-columns: 36px 1fr;
@@ -871,7 +871,7 @@ p a:hover {
   height: 60px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .news .logo {
     height: 42px;
   }
@@ -883,7 +883,7 @@ p a:hover {
   line-height: 36px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .news .description {
     font-size: 18px;
     line-height: 24px;
@@ -896,7 +896,7 @@ p a:hover {
   align-self: center;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .news .button {
     grid-column: 1 / 3;
     grid-row: 3;
@@ -937,7 +937,7 @@ a.button {
   margin-bottom: 78px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .technology-grid {
     grid-template-columns: 1fr 1fr;
     row-gap: 48px;
@@ -951,7 +951,7 @@ a.button {
   align-items: center;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .technology-grid .item {
     display: grid;
     grid-template-columns: 1fr;
@@ -970,7 +970,7 @@ a.button {
   height: 300px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .technology-grid .item .icon {
     margin-bottom: 0;
     height: 180px;
@@ -998,7 +998,7 @@ a.button {
   column-gap: 60px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .columns {
     columns: 1;
   }
@@ -1010,7 +1010,7 @@ a.button {
   column-gap: 18px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .comparison {
     display: grid;
     grid-template-columns: 1fr;
@@ -1024,7 +1024,7 @@ a.button {
   border-radius: 16px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .comparison .table {
     padding: 18px;
   }
@@ -1035,7 +1035,7 @@ a.button {
   margin: 30px 0;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .comparison .table.cross {
     margin: 0;
   }
@@ -1045,7 +1045,7 @@ a.button {
   border: 4px #FF7C00 solid;  
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .comparison .table.check {
     grid-row: 3;
   }
@@ -1069,7 +1069,7 @@ a.button {
   margin: 18px 0;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .comparison .table li {
     margin-block-start: 6px;
     margin-block-end: 6px;
@@ -1088,7 +1088,7 @@ a.button {
   background-image: url('../images/check.svg');
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .comparison .table li:before {
     width: 24px !important;
     height: 24px !important;
@@ -1148,7 +1148,7 @@ a.button {
   width: calc(100% - 144px);
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .videoPlayer video {
     width: calc(100% - 36px);
   }
@@ -1167,7 +1167,7 @@ a.button {
   row-gap: 60px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .additional {
     grid-template-columns: 1fr;
     row-gap: 48px;
@@ -1189,7 +1189,7 @@ a.button {
   box-sizing: border-box;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .additional .picture {
     width: 120px;
     height: 120px;
@@ -1201,7 +1201,7 @@ a.button {
   font-size: 30px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .additional .title {
     font-size: 24px;
   }
@@ -1219,7 +1219,7 @@ a.button {
   margin-left: -48px
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .erisyon-bar {
     height: 30px;
     margin-left: -18px;
@@ -1234,7 +1234,7 @@ a.button {
   row-gap: 90px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .team {
     grid-template-columns: 1fr 1fr;
     column-gap: 18px;
@@ -1242,7 +1242,7 @@ a.button {
   }
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .team {
     column-gap: 30px;
     row-gap: 30px;
@@ -1265,7 +1265,7 @@ a.button {
   margin-bottom: 24px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .team .member .picture {
     width: 120px;
     height: 120px;
@@ -1288,7 +1288,7 @@ a.button {
   padding: 60px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .papers {
     padding: 18px 18px 0 18px;
   }
@@ -1303,7 +1303,7 @@ a.button {
   align-items: start;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .papers .paper {
     grid-template-columns: 36px 1fr;
     column-gap: 18px;
@@ -1330,7 +1330,7 @@ a.button {
   color: #404040;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .papers .paper .description {
     margin-bottom: 30px;
   }
@@ -1343,7 +1343,7 @@ a.button {
   text-align: center;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   .papers .paper .button {
     width: 100%;
     grid-column: 1 / 3;
@@ -1367,7 +1367,7 @@ textarea {
   font-size: 16px;
 }
 
-@media only screen and (max-device-width: 840px) {
+@media only screen and (max-width: 840px) {
   input[type=text],
   input[type=email],
   textarea {
