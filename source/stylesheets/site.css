@@ -9,8 +9,26 @@ html, body {
   padding: 0;
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 30px;
+  line-height: 1.25;
+}
+
+@media only screen and (max-width: 840px) {
+  html, body {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  html, body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 2560px) {
+  html, body {
+    font-size: 24px;
+  }
 }
 
 body {
@@ -30,12 +48,11 @@ a {
 }
 
 h1 {
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 3.42em;
   font-weight: 600;
   color: black;
-  margin-block-start:0;
-  margin-block-end: 60px;
+  margin-block-start: 0;
+  margin-block-end: 1.25em;
   width: 100%;
   max-width: 900px;
   margin-left: auto;
@@ -44,10 +61,8 @@ h1 {
 
 @media only screen and (max-width: 840px) {
   h1 {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 2.14em;
     margin-block-start: 0;
-    margin-block-end: 42px;
   }
 }
 
@@ -60,49 +75,40 @@ h1.white {
 }
 
 h2 {
-  font-size: 30px;
-  line-height: 42px;
+  font-size: 2.14em;
+  line-height: 1.5;
   font-weight: 400;
   color: #404040;
   margin-block-start: 0;
-  margin-block-end: 30px;
+  margin-block-end: 2.14em;
   width: 100%;
 }
 
 @media only screen and (max-width: 840px) {
   h2 {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.7em;
+    margin-block-end: 1.7em;
   }
 }
 
 h3 {
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.7em;
+  line-height: 1.5;
   font-weight: 700;
   color: black;
   margin-block-start: 0;
-  margin-block-end: 30px;
+  margin-block-end: 1.7em;
   width: 100%;
-}
-
-@media only screen and (max-width: 840px) {
-  h3 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-block-end: 24px;
-  }
 }
 
 p {
   color: #404040;
-  line-height: 30px;
+  line-height: 1.5;
 }
 
 @media only screen and (max-width: 840px) {
-  p {
-    color: #404040;
-    line-height: 24px;
+  html, body {
+    font-size: 14px;
   }
 }
 
@@ -187,7 +193,6 @@ p a:hover {
   display: inline-block;
   color: white;
   text-transform: uppercase;
-  font-size: 14px;
   font-weight: 600;
   padding: 12px 18px;
   transition: all 0.25s;
@@ -326,7 +331,7 @@ p a:hover {
 
 .footer .copyright {
   opacity: 0.5;
-  font-size: 12px;
+  font-size: 0.86;
   margin-right: auto;
 }
 
@@ -341,7 +346,7 @@ p a:hover {
 
 .block {
   width: 100%;
-  padding: 60px 0;
+  padding: 3.42em 0;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -359,22 +364,24 @@ p a:hover {
 }
 
 .block > * {
-  max-width: 900px;
+  max-width: 75%;
 }
 
-.purple {
+@media only screen and (max-width: 1366px) {
+  .block > * {
+    max-width: 900px;
+  }
+}
+
+.block.purple {
+  height: fit-content;
   content: '';
   background-color: #3A437E;
   background-size: contain;
   background-repeat: repeat-x;
   background-origin: border-box;
   width: 100%;
-  padding-top: 60px;
   padding-bottom: 0;
-}
-
-.block.purple {
-  height: fit-content;
 }
 
 .block.purple + * {
@@ -405,17 +412,14 @@ p a:hover {
   }
 }
 
-.box h1,
-.box h2 {
+.box h1 {
   margin-block-start: 0;
-  margin-block-end: 48px;
+  margin-block-end: 3.42em;
 }
 
-@media only screen and (max-width: 840px) {
-  .box h1,
-  .box h2 {
-    margin-block-end: 24px;
-  }
+.box h2 {
+  margin-block-start: 0;
+  margin-block-end: 1.7em;
 }
 
 .shadow {
@@ -463,15 +467,13 @@ p a:hover {
 }
 
 .zigzag .content {
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.14em;
+  line-height: 1.5;
 }
 
-@media only screen and (max-width: 840px) {
-  .zigzag .content {
-    font-size: 18px;
-    line-height: 24px;
-  }
+.zigzag .title {
+  font-size: 1.7em;
+  line-height: 1.25;
 }
 
 .zigzag .gradient {
@@ -557,8 +559,8 @@ p a:hover {
 }
 
 .zigzag p {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1em;
+  line-height: 1.5;
 }
 
 /* HOME */
@@ -578,6 +580,7 @@ p a:hover {
     row-gap: 30px;
     align-items: stretch;
     padding: 12px 0;
+    font-size: 14px;
   }
 }
 
@@ -652,7 +655,7 @@ p a:hover {
 }
 
 .home-grid .item .title {
-  font-size: 30px;
+  font-size: 2.14em;
   font-weight: 400;
   color: #404040;
   margin-bottom: 18px;
@@ -697,7 +700,7 @@ p a:hover {
 }
 
 .fluorosequencing h2 {
-  margin-block-start: 120px;
+  margin-block-start: 2em;
 }
 
 .fluorosequencing {
@@ -807,8 +810,7 @@ p a:hover {
 }
 
 .fluorosequencing-grid .item .title {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.42em;
   font-weight: 700;
   color: #404040;
   margin-bottom: 18px;
@@ -879,15 +881,8 @@ p a:hover {
 
 .news .description {
   grid-column: 1 / 3;
-  font-size: 24px;
-  line-height: 36px;
-}
-
-@media only screen and (max-width: 840px) {
-  .news .description {
-    font-size: 18px;
-    line-height: 24px;
-  }
+  font-size: 1.7em;
+  line-height: 1.5;
 }
 
 .news .button {
@@ -1058,7 +1053,7 @@ a.button {
 .comparison .table ul {
   margin-block-start: 0;
   margin-block-end: 0;
-  font-size: 14px;
+  font-size: 1em;
   padding-inline-start: 0;
 }
 
@@ -1071,8 +1066,8 @@ a.button {
 
 @media only screen and (max-width: 480px) {
   .comparison .table li {
-    margin-block-start: 6px;
-    margin-block-end: 6px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
   }
 }
 
@@ -1198,13 +1193,7 @@ a.button {
 }
 
 .additional .title {
-  font-size: 30px;
-}
-
-@media only screen and (max-width: 480px) {
-  .additional .title {
-    font-size: 24px;
-  }
+  font-size: 2.14em;
 }
 
 /* ABOUT */
@@ -1325,8 +1314,8 @@ a.button {
 
 .papers .paper .description {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.28em;
+  line-height: 1.25;
   color: #404040;
 }
 
@@ -1364,7 +1353,7 @@ textarea {
   border-radius: 4px;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1.14em;
 }
 
 @media only screen and (max-width: 840px) {
@@ -1384,7 +1373,7 @@ input[type=text]::placeholder,
 input[type=email]::placeholder,
 textarea::placeholder {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1.14em;
   color: #9D9EA0;
 }
 
@@ -1392,7 +1381,7 @@ input[type=submit] {
   cursor: pointer;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1.14em;
   background-color: #FF7C00;
   padding: 18px 18px;
   transition: all 0.25s;
@@ -1401,4 +1390,5 @@ input[type=submit] {
   width: 240px;
   display: flex;
   justify-content: center;
+  appearance: none;
 }
