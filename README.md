@@ -17,8 +17,14 @@ Get the environment ready by following these steps:
 
 ### Production
 
-Once you're happy push the current master to the `production` branch. Netlify is scanning this
-branch and will deploy.
+Once you're happy push the current master to the `production` branch. Netlify
+is scanning this branch and will deploy it when changes are made to it. It's 
+recommended that you do this via master:
+
+```
+$ git checkout production
+$ git reset --hard origin/production
+```
 
 ### Previews
 
