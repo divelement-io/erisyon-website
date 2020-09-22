@@ -74,6 +74,10 @@ h1.white {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 h2 {
   font-size: 2.14em;
   line-height: 1.5;
