@@ -7,12 +7,12 @@ end
 
 # Webpack
 activate :external_pipeline,
- name: :webpack,
- command: build? ?
-   "npm run build" :
-   "npm start",
- source: ".tmp/dist",
- latency: 1
+  name: :webpack,
+  command: build? ?
+    "npm run build" :
+    "npm start",
+  source: ".tmp/dist",
+  latency: 1
 
 # Reload the browser automatically whenever files change
 activate :livereload, host: '0.0.0.0', port: '1234'
@@ -56,8 +56,8 @@ activate :directory_indexes
 
 # Dev environment
 configure :development do
- config[:css_dir] = ".tmp/dist"
- config[:js_dir] = ".tmp/dist"
+  config[:css_dir] = ".tmp/dist"
+  config[:js_dir] = ".tmp/dist"
 end
 
 configure :build do

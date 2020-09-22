@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "ditorconfig.editorconfig", // editorconfig
+    "karunamurti.haml",         // haml
+    "rebornix.ruby",            // ruby
+  ]
+}

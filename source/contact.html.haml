@@ -6,7 +6,7 @@ section: Contact
     %h1.white.center
         We are open to discuss early instrument access and collaboration
 .block.grey
-    %form
+    %form{:data => {:netlify => "true"}}
         %input{:placeholder => 'Enter your name…', :name => 'name', :type => 'text', :required => true}
         %input{:placeholder => 'Enter your email…', :name => 'email', :type => 'email', :required => true}
         %textarea{:placeholder => 'Message…', :name => 'message', :required => true}

@@ -12,8 +12,14 @@ Get the environment ready by following these steps:
 1. Wait a couple of minutes while the preview web-server starts
 1. Open a browser at `http://localhost:4567`
 
-## Deploy to staging
 
-We have a staging environment in https://erisyon.manas.dev/
+## Deployemnt
 
-To make a new deploy to that environment, push a tag (any tag) to the repository. There's a Github Action that will take care of updating the relevant S3 bucket with the static site.
+### Production
+
+Once you're happy push the current master to the `production` branch. Netlify is scanning this
+branch and will deploy.
+
+### Previews
+
+Pull Requests create previews on netlify.
