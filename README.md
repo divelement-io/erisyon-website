@@ -17,9 +17,19 @@ Get the environment ready by following these steps:
 
 ### Production
 
-Once you're happy push the current master to the `production` branch. Netlify is scanning this
-branch and will deploy.
+Once you're happy push the current master to the `production` branch. Netlify
+is scanning this branch and will deploy it when changes are made to it. It's 
+recommended that you do this via master:
 
-### Previews
+```
+$ git fetch
+$ git checkout production
+$ git reset --hard origin/production
+$ git push origin production
+```
 
-Pull Requests create previews on netlify.
+### Development & Previews
+
+As always, please do development in branches and submit a PR for that work. Pull
+Requests create previews on netlify. Builds are slow, but this is a low
+throughput project so we'll just deal with it until it's too painful.
