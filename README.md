@@ -22,7 +22,6 @@ is scanning this branch and will deploy it when changes are made to it. It's
 recommended that you do this via master:
 
 ```
-<<<<<<< HEAD
 $ git fetch
 $ git checkout production
 $ git reset --hard origin/production
@@ -34,12 +33,3 @@ $ git push origin production
 As always, please do development in branches and submit a PR for that work. Pull
 Requests create previews on netlify. Builds are slow, but this is a low
 throughput project so we'll just deal with it until it's too painful.
-=======
-$ git checkout production
-$ git reset --hard origin/production
-```
-
-### Previews
-
-Pull Requests create previews on netlify.
->>>>>>> 954d94560d344a0ea401dd7fd42acb50b3b506cc
