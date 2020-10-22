@@ -42,7 +42,7 @@ section: Technology
             The key concept of Fluorosequencing as described in this
         %a{:href => "https://www.nature.com/articles/nbt.4278", :target => "_blank"}
             Nature Biotechnology article
-        is as follows: First, one or more amino acid types on the peptides are selectively chemically labeled with specific identifier fluorophores. Millions of individual peptides are then immobilized on a glass cover slip. Next, each molecule’s fluorescence is monitored using total internal reflection fluorescence (TIRF) microscopy following consecutive rounds of amino-terminal (N-terminal) amino acid removal by Edman chemistry. The sequence positions of the labeled amino acids are thus identified for each peptide molecule, providing a partial sequence for each molecule. These fluorescence signatures (“fluorosequences”) can then be compared to a reference proteome for assignment to their proteins of origin.
+        is as follows: A protein sample is digested using a protease resulting in hundreds of millions up to billions of peptides. Several amino acid types on these peptides are selectively and covalently labeled with specific fluorophores that uniquely that type. For instance, a cysteine received a fluorophore in the blue channel, a lysine in the green channel, a tyrosine in the yellow channel, and a tryptophan in the red channel. Then the collection of peptides are immobilized on a glass cover slip. An image is then captured that establishes the baseline intensity of each peptide’s fluorescence in each channel. Following the imaging step, an Edman reaction is performed to remove the first (N-terminal) amino acid. Another image is taken to see wha changed in each channel intensity. If, for example, there is a step drop in the blue channel, it's been established there was a cystein in that position. If there was no step drop, then it can be inferred that an unlabeled amino acid in that position. Subsequent cycles of imaging and Edman chemistry are conducted until the peptides have been exhausted, usually 15-20 cycles. The final product is an incomplete sequence - referred to as a "fluorosequence" - that can be matched against a database to identify which protein the peptide came from.
 .block.grey.collapse
     %h1
         Features and benefits
@@ -54,7 +54,7 @@ section: Technology
                 .title
                     Single molecule sensitivity
                 %p
-                    The ability to image and sequence individual peptide molecules makes the technology immediately 1 million times more sensitive than the current peptide mass- spectrometers. This offers the benefit of using extremely low sample amounts, such as clinical biopsies. This smaller sample requirements, assuming a factor of at least 1000, roughly translates to a difference between needing 1/4th of a pancreas or sampling with a needle for biopsy material.
+                    The ability to image and sequence individual peptide molecules makes the technology 1 million times more sensitive than the current state of the art for protein identification, mass-spectrometery. This offers the benefit of using extremely low sample amounts, such as clinical biopsies. This smaller sample requirements, assuming a factor of at least 1000, roughly translates to a difference between needing 1/4th of a pancreas or sampling with a needle for biopsy material.
         .zag   
             .gradient
                 .picture{:style => "background-image:url(../images/icon-thoroughput.svg);"}
@@ -62,7 +62,7 @@ section: Technology
                 .title
                     Massively parallel architecture
                 %p
-                    The ability to sequence and independently measure fluorescence from individual peptide molecules tethered to an imaging surface, provides a scalable architecture to achieve a throughput to identify billions of peptide molecules on a single glass slide.
+                    The ability to sequence and independently measure fluorescence from individual peptide molecules tethered to an imaging surface, provides a scalable architecture to achieve a throughput to identify hundreds of millions or even billions of peptide molecules on a single glass slide.
         .zig
             .gradient
                 .picture{:style => "background-image:url(../images/icon-heterogeneous.svg);"}
