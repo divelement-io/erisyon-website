@@ -22,9 +22,10 @@ is scanning this branch and will deploy it when changes are made to it. It's
 recommended that you do this via master:
 
 ```
+$ git checkout master
 $ git fetch
 $ git checkout production
-$ git reset --hard origin/production
+$ git reset --hard origin/master
 $ git push origin production
 ```
 
