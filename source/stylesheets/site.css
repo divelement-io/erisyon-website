@@ -19,18 +19,15 @@ html, body {
   }
 }
 
-@media only screen and (max-width:1500px) {
+@media only screen and (max-width: 1366px) {
+  html, body {
+    font-size: 14px;
+  }
   .block>* {
     max-width: 60%; 
   }
   .erisyon-bar {
-  height: 4em;
-  }
-}
-
-@media only screen and (max-width: 1366px) {
-  html, body {
-    font-size: 14px;
+    height: 4em;
   }
 }
 
