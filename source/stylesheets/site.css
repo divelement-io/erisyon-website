@@ -388,6 +388,13 @@ p a:hover {
   max-width: 75%;
 }
 
+@media only screen and (max-width: 2560px) {
+    .block>* {
+    max-width: 60%; 
+  }
+
+}
+
 @media only screen and (max-width: 1366px) {
   .block > * {
     max-width: 900px;
@@ -1231,6 +1238,12 @@ a.button {
   margin-left: -3.42em;
 }
 
+@media only screen and (max-width: 2560px) {
+  .erisyon-bar {
+    height: 4.5em;
+  }
+}
+
 @media only screen and (max-width: 840px) {
   .erisyon-bar {
     height: 30px;
@@ -1415,4 +1428,10 @@ input[type=submit] {
   display: flex;
   justify-content: center;
   appearance: none;
+}
+
+@media only screen and (max-width: 2560px) {
+  .block>* {
+    max-width: 60%; 
+  }
 }
