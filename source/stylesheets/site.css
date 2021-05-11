@@ -17,12 +17,6 @@ html, body {
   html, body {
     font-size: 14px;
   }
-    .block>* {
-    max-width: 60%; 
-  }
-  .erisyon-bar {
-    height: 4.5em;
-  }
 }
 
 @media only screen and (max-width: 1366px) {
