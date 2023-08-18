@@ -1,0 +1,24 @@
+---
+links:
+  - href: '/technology'
+    title: technology
+  - href: '/applications'
+    title: applications
+  - href: '/about'
+    title: about
+  - href: '/newsandresearch'
+    title: news & research
+  - href: '/contact'
+    title: contact
+social:
+  - href: 'https://www.linkedin.com/company/erisyon'
+    icon: '/Images/linkedin.png'
+    size: 24
+    left: '5px'
+  - href: 'https://twitter.com/erisyon'
+    icon: '/Images/twitter.png'
+    size: 30.75
+    left: '6px'
+logo:
+  alt: 'Erisyon White Logo'
+copyright: 'Copyright Erisyon Inc. ©2022 All rights reserved'

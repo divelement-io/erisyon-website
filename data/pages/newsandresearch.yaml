@@ -1,0 +1,123 @@
+meta:
+  description:
+    Erisyon - Newsroom.
+  title: Erisyon - Newsroom
+newsroomHero:
+  headline: News & Research
+  description: "For media inquiries, please contact:"
+  contact: Name, Title, Phone, Email
+posts:
+  headline: News
+  cards:
+    - title: NATURE BIOTECHNOLOGY
+      description: >-
+        “New Protein Sequencing Method Could Transform Biological Research”
+      cta:
+        text: READ PRESS RELEASE
+        href: https://www.eurekalert.org/news-releases/487442
+    - title: PR NEWSWIRE
+      description: >-
+        “Erisyon Awarded Michael J. Fox Foundation Grant to Validate Methods for Early Parkinson's Detection”
+      cta:
+        text: READ PRESS RELEASE
+        href: https://www.prnewswire.com/news-releases/erisyon-awarded-michael-j-fox-foundation-grant-to-validate-methods-for-early-parkinsons-detection-301059151.html
+    - title: LOREM IPSUM
+      description: >-
+        “Tortor aliquam nulla facilisi cras fermentum odio”
+      cta:
+        text: LOREM IPSUM
+        href: "#"
+journalArticles:
+  headline: "Peer-Reviewed Journal\nArticles"
+  listItems:
+    - title: ACS CHEMICAL BIOLOGY
+      description: "\
+        “Photoredox-Catalyzed Decarboxylative C-Terminal \n\
+        Differentiation for Bulk- and Single-Molecule \n\
+        Proteomics”"
+      cta:
+        text: READ PAPER
+        href: https://pubs.acs.org/doi/10.1021/acschembio.1c00631
+      minHeight: '154px'
+    - title: ACS CHEMICAL BIOLOGY
+      description: "\
+        “Solid-phase Peptide Capture and Release for Bulk and \n\
+        Single-Molecule Proteomics”"
+      cta:
+        text: READ PAPER
+        href: https://pubs.acs.org/doi/10.1021/acschembio.0c00040
+      minHeight: '130px'
+    - title: NATURE BIOTECHNOLOGY
+      description: "\
+        “Highly Parallel Single-Molecule Identification of \n\
+        Proteins in Zeptomole-Scale Mixtures”"
+      cta:
+        text: READ ABSTRACT
+        href: https://www.nature.com/articles/nbt.4278
+      minHeight: '132px'
+    - title: NATURE BIOTECHNOLOGY
+      description: >-
+        “Proteomics Goes Parallel”
+      cta:
+        text: READ ARTICLE
+        href: https://www.nature.com/articles/nbt.4288
+      minHeight: '135px'
+    - title: PLOS COMPUTATIONAL BIOLOGY
+      description: "\
+        “A Theoretical Justification for Single Molecule Peptide \n\
+        Sequencing”"
+      cta:
+        text: READ ABSTRACT
+        href: https://pubmed.ncbi.nlm.nih.gov/25714988/
+      minHeight: '135px'
+    - title: ROYAL SOCIETY OF CHEMISTRY
+      description: "\
+        “Solution-Phase and Solid-Phase Sequential, Selective \n\
+        Modification of Side Chains in KDYWEC and KDYWE as \n\
+        Models for Usage in Single-Molecule Protein Sequencing”"
+      cta:
+        text: READ ABSTRACT
+        href: https://pubmed.ncbi.nlm.nih.gov/28983186/
+      minHeight: '154px'
+applicationNotes:
+  headline: "White Papers &\nApplication Notes"
+  listItems:
+    - title: WHITE PAPER
+      description: >-
+        “Fluorosequencing: Concept, Features and Benefits”
+      cta:
+        downloadLink: /files/Fluorosequencing_%20Concept,%20Features%20and%20Benefits.pdf
+      minHeight: '106px'
+    - title: APPLICATION NOTES
+      description: >-
+        “Cataloging Individual Proteins from a Single Cell”
+      cta:
+        downloadLink: /files/Cataloguing%20Individual%20Proteins%20from%20a%20Single%20Cell.pdf
+      minHeight: '106px'
+    - title: APPLICATION NOTES
+      description: >-
+        “Discovery of Antigenic Peptides for Immunotherapy”
+      cta:
+        downloadLink: /files/Discovery%20of%20Antigenic%20peptides%20for%20immunotherapy.pdf
+      minHeight: '106px'
+    - title: APPLICATION NOTES
+      description: "\
+        “Fluorosequencing Implications for COVID-19 and Viral \n\
+        Outbreaks”"
+      cta:
+        downloadLink: /files/Fluorosequencing%20implications%20for%20COVID-19%20and%20viral%20outbreaks.pdf
+      minHeight: '135px'
+    - title: APPLICATION NOTES
+      description: "\
+        “High Sensitive Detection and Quantification of \n\
+        Biomarkers for Parkinson’s Disease”"
+      cta:
+        downloadLink: /files/High%20sensitive%20detection%20and%20quantification%20of%20biomarkers%20for%20Parkinson’s%20disease.pdf
+      minHeight: '135px'
+    - title: APPLICATION NOTES
+      description: "\
+        “Mapping the Residue Positions of a Protein’s Post- \n\
+        Translational Modification”"
+      cta:
+        downloadLink: /files/Mapping%20the%20residue%20positions%20of%20a%20protein’s%20post-translational%20modification.pdf
+      minHeight: '135px'

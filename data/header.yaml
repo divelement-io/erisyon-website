@@ -1,0 +1,19 @@
+---
+items:
+  - href: '/technology'
+    title: technology
+  - href: '/applications'
+    title: applications
+  - href: '/about'
+    title: about
+  - href: '/newsandresearch'
+    title: news & research
+  - href: '/contact'
+    title: contact
+logo:
+  white: 
+    href: '/public/Images/Navbar/Erisyon_logo_white.png'
+    alt: 'Erisyon Logo White'
+  black: 
+    href: '/public/Images/Navbar/Erisyon_logo_black.png'
+    alt: 'Erisyon Logo Black'

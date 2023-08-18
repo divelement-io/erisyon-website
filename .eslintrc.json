@@ -1,0 +1,21 @@
+{
+  "extends": ["plugin:react/recommended", "airbnb", "next", "prettier"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "import/extensions": [1, "never"],
+    "react/jsx-props-no-spreading": [1],
+    "react/function-component-definition": [1, { "namedComponents": [ "function-declaration", "function-expression", "arrow-function"] }],
+    "arrow-body-style": [1, "as-needed", { "requireReturnForObjectLiteral": true }],
+    "no-unused-vars": [1],
+    "react/require-default-props": [1, { "ignoreFunctionalComponents": true }],
+    "eol-last": [2, "always"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      },
+      "typescript": {}
+    }
+  }
+}

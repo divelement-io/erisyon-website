@@ -1,0 +1,47 @@
+meta:
+  description:
+    Erisyon - About.
+  title: Erisyon - About
+aboutHero:
+  headlineTop: Charting the new era of
+  headline: proteomics.
+  descriptionTop: "
+    Erisyon Inc. is commercializing the world’s first single-molecule \n
+    protein sequencer that promises to transform the way we \n
+    detect, treat, and track disease."
+  description: "
+    Inheriting over a decade of work performed at the University of \n
+    Texas at Austin’ s Center for Systems and Synthetic Biology, \n
+    Erisyon was founded in March 2018 by a group of technologists \n
+    and entrepreneurs with the ambition to usher in new discoveries \n
+    that make the world healthier, safer, and more abundant."
+  image:
+    src: /images/about/image_erisyon_moonlit.png
+    alt: erisyon moonlit
+team:
+  title: Our Team
+  description: >-
+    Some description here
+  members:
+    - image: /images/about/image_out_team_person_1.png
+      name: Talli Somekh
+      role: CEO
+    - image: /images/about/image_out_team_person_2.png
+      name: Jag Swaminathan PhD
+      role: CTO
+    - image: /images/about/image_out_team_person_3.png
+      name: Angela Bardo PhD
+      role: VP of Product
+    - image: /images/about/image_out_team_person_6.jpg
+      name: Zack Simpson
+      role: VP of Informatics
+    - image: /images/about/image_out_team_person_4.png
+      name: Prof Eric Anslyn
+      role: UT Austin
+    - image: /images/about/image_out_team_person_5.png
+      name: Prof Edward MArcotte
+      role: UT Austin
+    - name: Name
+      role: Title
+    - name: Name
+      role: Title

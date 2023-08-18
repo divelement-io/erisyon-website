@@ -1,0 +1,114 @@
+---
+meta:
+  description: >-
+    Erisyon.
+  title: Erisyon
+hero:
+  bgImage:
+    href: "/Images/Home/bg-image.png"
+    alt: "Orange_light_gradient"
+  leftImage:
+    href: "/Images/Home/erisyon2.png"
+    alt: "erison2.png"
+  content:
+    animation:
+      href: "/Images/Home/Eriyson_gamechanger-V6.gif"
+      alt: "Eriyson_gamechanger-V6"
+    head:
+      bold: "Decoding nature"
+      normal: "for human health and beyond."
+    subhead: "Introducing the world's first single-molecule protein sequencer."
+    buttonCta:
+      href: "#fluorosequencing"
+      text: "LEARN ABOUT FLUOROSEQUENCING"
+subhero:
+  topImage:
+    href: '/Images/Home/Camera_Objective@2x.png'
+    alt: 'Camera Objective'
+  title:
+    bold: 'Fluorosequencing'
+    normal: 'will revolutionize the way we detect, treat, and track disease.'
+  bottomImage:
+    href: '/Images/Home/ChainFlags_homepage_staggered@3x.png'
+    alt: 'Chain Flags'
+gifSection:
+  topImage:
+    href: '/Images/Home/Orange_gradient_ball@2x4.png'
+    alt: 'Grey ball'
+  bgImage:
+    href: '/Images/Home/Grey_gradient@2x.png'
+    alt: 'Grey gradient'
+  title: 'Moving light years ahead of'
+  animation:
+    href: '/Images/Home/Erisyon_diseases_final.gif'
+    alt: 'Gif animation'
+  sprinkles:
+    href: '/Images/Home/Sprinkles.png'
+    alt: 'sprinkles'
+experiments:
+  head: 'Billions of experiments, faster breakthroughs.'
+  subhead: 'Erisyon brings the advantages of next-generation DNA sequencing to proteomics.'
+  elementsArray: 
+    - src: '/Images/Home/Ellipse1.png'
+      title: 'ULTIMATE SENSITIVITY'
+      description: 'Single-molecule resolution'
+      width: 23.4
+      height: 23.4
+      line: true
+      mb: "-12px"
+    - src: '/Images/Home/Parallel.png'
+      title: "MASSIVELY PARALLEL \n\ ARCHITECTURE"
+      description: "Billions of simultaneous \n\ experiments"
+      width: 120
+      height: 120
+      line: true
+      mb: "-30px"
+    - src: '/Images/Home/Component6.png'
+      title: 'ABSOLUTE QUANTIFICATION'
+      description: 'Exact counts of protein abundance'
+      width: 130
+      height: 137
+      line: true
+      mb: "15px"
+leadinScince:
+  bgImage:
+    href: "/Images/Home/Orange_light_gradient-2x1.jpg"
+    alt: ""
+  content:
+    head:
+      text: "Leading the science."
+    body:
+      text: "Fluorosequencing was invented at the University of Texas Austin by a team of multi-disciplinary scientists in the labs of Profs Eric Anslyn and Edward Marcotte. Our team authored the first published paper in the field."
+    buttonCta:
+      href: "/about"
+      text: "About us"
+  natureBiotechnology:
+    content:
+      upperImage: 
+        href: "/Images/Home/Orange_grafdient_ballXL@2x1.png"
+        alt: "orange big dot"
+      img:
+        href: "/Images/Home/Nature_bio_cover1.png"
+        alt: "nature-biotechnology"
+      logoImg:
+        href: "/Images/Home/nature-biotechnology.svg"
+        alt: "nature-biotechnology"
+      body:
+        text: "“New Protein Sequencing \nMethod Could Transform \nBiological Research”"
+      buttonCta:
+        href: "https://www.eurekalert.org/news-releases/487442"
+        text: "READ Press Release"
+  lsBottomImage:
+    href: '/Images/Home/erisyon2.png'
+    alt: 'Erisyon bottom image'
+tec:
+  img:
+    href: "/Images/Home/Enzyme_larger.png"
+    alt: 'Enzyme'
+  head: 
+    text: "Earlier detection,\ntreatment, and tracking."
+  body:
+    text: "With unparalleled fidelity, sensitivity and resolution,\nFluorosequencing promises to detect and treat disease\nsooner, and keep it away longer."
+  buttonCta:
+    href: '/technology' 
+    text: 'Learn about our technology'

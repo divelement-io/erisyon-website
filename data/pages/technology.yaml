@@ -1,0 +1,309 @@
+---
+meta:
+  description: >-
+    Erisyon - Technology.
+  title: Erisyon - Technology
+techHero:
+  variant: video
+  headlineTop: Precision
+  headline: in proteomics.
+  description: "\
+    Fluorosequencing moves beyond genomics as the world's first single- \n\
+    molecule protein sequencer."
+  bottomImage: /images/technology/image_headline_precision.png
+  videoUrl: https://www.erisyon.com/images/erisyon_fs_animation02.1.m4v
+section2:
+  headlineTop: Ask more
+  headline: precise questions.
+  description: "\
+    Fluorosequencing goes where existing technologies cannot, \n\
+    empowering scientists to ask key questions that will help \n\
+    overcome difficult-to-treat diseases."
+  bottomCta:
+    text: LEARN ABOUT APPLICATIONS
+    href: /applications
+    light: true
+  elementsArray:
+    - title: NEUROLOGY
+      description: >-
+        Measure healthy vs pathological alpha-synuclean proteins
+      src: /images/technology/image_neurology.png
+    - title: ONCOLOGY
+      description: >-
+        Detect neoantigens directly for better immune-oncology treatments
+      src: /images/technology/image_oncology.png
+    - title: INFECTIOUS DISEASE
+      description: >-
+        Reveal the glycosylation sites COVID19 uses to evade the immune system
+      src: /images/technology/image_infectious_disease.png
+section3:
+  headline: Transform the way we manage disease.
+  elementsArray:
+    - title: DETECT
+      description: "Extremely low sample sizes \n& liquid biopsies"
+      src: /images/technology/image_detect.png
+      width: 104
+      height: 200
+    - title: TREAT
+      description: "Better therapeutics and \ntargeted drugs"
+      src: /images/technology/image_treat.png
+      width: 174
+      height: 200
+    - title: TRACK
+      description: "More precise tracking of \ndisease progression"
+      src: /images/technology/image_track.png
+      width: 200
+      height: 200
+section4:
+  topGroup:
+    image:
+      src: /images/technology/image_sweet_spot.png
+      alt: Sweet spot
+    headline: Fluorosequencing’s Sweet Spot
+    description: "\
+      Fluorosequencing brings all the advantages of next- \n\
+      generation DNA sequencing to proteins, combining \n\
+      leading-edge digital quantification with high sensitivity \n\
+      and throughput. It is ideal for quantifying vast numbers \n\
+      of peptides in ultra-low sample concentrations, such as \n\
+      those found in tumor biopsies, or in extremely rare \n\
+      samples."
+  middleGroup:
+    headline: Fluorosequencing vs the Competition
+    elementsArray:
+      - title: DNA/RNA SEQUENCING
+        list: 
+          - Indirect measurement
+          - Diverse set of peptides
+          - Poorly correlated quantification
+      - title: FLUOROSEQUENCING ADVANTAGES
+        list: 
+          - ultimate sensitivity
+          - Ultra-low sample requirement
+          - Massively parallel throughput
+          - Absolute quantification
+          - de novo PTM discovery
+      - title: MASS SPECTROMETRY
+        list: 
+          - High sample requirement
+          - Sequential processing
+          - PTM low resolution
+  bottomGroup:
+    left:
+      title: "\
+        Predicting protein sequences from mRNA \n\
+        levels is imprecise and unreliable.¹"
+      description: "\
+        Furthermore, Mass Spectrometry is not \n\ 
+        suitable for many applications because of \n\
+        its low sensitivity and throughput."
+      source: 1. Liu, Y., Beyer, A. & Aebersold, R.Cell165, 535–550(2016).
+    right:
+      title: "\
+        Our technology can accurately identify \n\
+        proteins in ways no other technology can."
+      description: "\
+        Fluorosequencing offers the ability to \n\
+        sequence hundreds of millions or billions of \n\
+        individual protein molecules simultaneously."
+section5:
+  headline: "Placeholder: Affinity Assays"
+  elementsArray:
+    - title: "[COMPETITOR 1]"
+      list: 
+        - Eget nulla facilisi etiam
+        - Sit amet consectetur
+        - Eget nulla facilisi etiam
+    - title: "[COMPETITOR 2]"
+      list: 
+        - Eget nulla facilisi etiam
+        - Sit amet consectetur
+        - Eget nulla facilisi etiam
+    - title: "[COMPETITOR 3]"
+      list: 
+        - Eget nulla facilisi etiam
+        - Sit amet consectetur
+        - Eget nulla facilisi etiam
+    - title: FLUOROSEQUENCING
+      list: 
+        - Eget nulla facilisi etiam
+        - Eget nulla facilisi etiam
+        - Sit amet consectetur  facilisi etiam
+        - Eget nulla facilisi etiam
+        - Eget nulla facilisi etiam
+  featureList:
+    items:
+      - left: 
+          href: '/Images/technology/Ellipse1.png'
+          alt: 'Ellipse image'
+          width: 83.4
+          height: 83.4
+          marginRight: 'mr-[32px]'
+        right: 
+          title: SINGLE-MOLECULE SENSITIVITY
+          description: "\
+            Fluorosequencing is 1 million times more sensitive \n\
+            than mass spectrometry. Assuming a factor of at \n\
+            least 1000, this translates into extremely low sample \n\
+            amounts: the difference between needing 1/4th of a \n\
+            pancreas or sampling with a needle for biopsy \n\
+            material."
+      - left:
+          href: '/Images/technology/Parallel.png'
+          alt: 'Dots Array'
+          width: 152.52
+          height: 150
+        right:
+          title: MASSIVELY PARALLEL ARCHITECTURE
+          description: "\
+            Our technology achieves a scalable throughput that \n\
+            was previously unattainable, empowering researchers \n\
+            and clinicians to identify hundreds of millions or even \n\
+            billions of peptide molecules on a single glass slide."
+      - left:
+          href: '/Images/technology/Component6.png'
+          alt: 'Graph Image'
+          width: 142.32
+          height: 150
+        right:
+          title: ABSOLUTE QUANTIFICATION
+          description: "\
+            Fluorosequencing enables researchers to compare \n\
+            proteins in the same sample – and across \n\
+            experiments – without need for external calibrants. \n\
+            Unlike other technologies, fluorosequencing quantifies \n\
+            peptides and proteins by counting molecular \n\
+            observations."
+      - left:
+          href: '/Images/technology/Heterogeneous.png'
+          alt: 'Dots Array blured'
+          width: 152.52
+          height: 150
+        right:
+          title: CHARACTERIZE HIGHLY HETEROGENEOUS SAMPLES
+          description: "\
+            Our technology can discriminate peptides and \n\
+            proteins across a large range of heterogeneity and \n\
+            abundances (up to 10^6 range). Identify peptides \n\
+            existing in extremely diverse backgrounds, such as \n\
+            antigens on tumor surfaces or a low abundant \n\
+            phosphorylation event on a protein."
+section6:
+  headline: Key Concept
+  description: "\
+    With help from a reference \n\
+    database, only a few amino acids \n\
+    are needed to uniquely identify a \n\
+    protein in a proteome."
+  bgImage: /images/image_bg_orange_light_gradient.png
+  image:
+    src: /images/technology/image_gif_protein_sequencing_2.gif
+    alt: Proteing Sequencing
+section7:
+  featureList:
+    title: How it Works
+    description: >-
+      EXAMPLE: CATALOGING ALL THE PROTEINS OF A SINGLE CELL
+    list: true
+    buttonCta:
+      text: SEE IT IN ACTION
+      href: "#section-hero-video"
+      light: true
+    items:
+      - left:
+          href: /Images/technology/image_how_it_works_1.png
+          alt: Dots Array blured Proteome
+          width: 538
+          height: 284
+        right:
+          description: The protein sample is digested, creating hundreds of millions or billions of peptides.
+      - left:
+          href: /Images/technology/image_how_it_works_2.png
+          alt: Chain with flags
+          width: 70
+          height: 240
+        right:
+          description: Select amino acids are Fluorescently labeled.
+      - left:
+          href: /Images/technology/image_how_it_works_3.png
+          alt: Dots Array blured Proteome
+          width: 313
+          height: 214
+        right:
+          description: The peptides are immobilized.
+      - left:
+          href: /Images/technology/image_how_it_works_4.png
+          alt: Chain with flags
+          width: 242
+          height: 184
+        right:
+          description: Image capture establishes baseline fluorescence.
+      - left:
+          href: /Images/technology/image_how_it_works_5.png
+          alt: Dots Array blured Proteome
+          width: 80
+          height: 382
+        right:
+          description: The sequence is determined by the intensity of the fluorescence.
+      - left:
+          href: /Images/technology/image_how_it_works_6.png
+          alt: Chain with flags
+          width: 614
+          height: 443
+        right:
+          description: "\
+            Subsequent cycles of imaging \n\
+            and Edman chemistry are \n\
+            conducted, usually 15-20 \n\
+            cycles. Fluorescence is \n\
+            analyzed and amino acids are \n\
+            identified to create a \n\
+            fluorosequence."
+      - left:
+          href: /Images/technology/image_how_it_works_7.png
+          alt: Chain with flags
+          width: 447
+          height: 350
+        right:
+          description: "\
+            The fluorosequence is \n\
+            matched in a database to \n\
+            identify which protein the \n\
+            peptide came from."
+  tableList:
+    headline: FURTHER READING
+    bottomCta:
+      text: SEE ADDITIONAL LITERATURE
+      href: /newsandresearch
+      light: true
+    listItems:
+      - title: NATURE BIOTECHNOLOGY
+        description: "\
+          Highly Parallel Single-Molecule Identification of \n\
+          Proteins in Zeptomole-Scale Mixtures"
+        cta:
+          text: READ ABSTRACT
+          href: https://www.nature.com/articles/nbt.4278
+      - title: WHITE PAPER
+        description: >-
+          “Fluorosequencing: Concept, Features and Benefits”
+        cta:
+          downloadLink: /files/Fluorosequencing_%20Concept,%20Features%20and%20Benefits.pdf
+      - title: APPLICATION NOTES
+        description: "\
+          “Mapping the Residue Positions of a Protein’s Post- \n\
+          Translational Modification”"
+        cta:
+          downloadLink: /files/Mapping%20the%20residue%20positions%20of%20a%20protein’s%20post-translational%20modification.pdf
+section8:
+  headlineTop: Clinical applications
+  headline: and beyond
+  description: "
+    Fluorosequencing eliminates bottlenecks across biology \n
+    and medicine. It will help detect disease earlier, lead to \n
+    better treatments, and more."
+  bgImage: /images/image_bg_grey_gradient.png
+  bottomImage: /images/technology/image_erisyon_3.png
+  cta:
+    text: LEARN ABOUT APPLICATIONS
+    href: /applications

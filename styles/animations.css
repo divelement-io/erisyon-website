@@ -1,0 +1,111 @@
+.animation-hide {
+  animation: animationHide 1s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.animation-show {
+  animation: animationShow 1s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animationHide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes animationShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.modal-show {
+  animation: animationShow 0.5s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.modal-show section > * {
+  animation: animationMoveUp 0.5s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.modal-hide section > * {
+  animation: animationMoveDown 0.5s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.modal-hide {
+  animation: animationHide 0.5s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animationMoveUp {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes animationMoveDown {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
+
+
+
+.modal-show .modal-move-left div[data-type="modal-content"] {
+  animation: animationMoveLeft 0.4s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.modal-show .modal-move-left {
+  animation: animationScaleDown 0.5s ease-out 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.modal-show .modal-move-return {
+  animation: animationScaleUp 0.35s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animationMoveLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-120%);
+  }
+}
+
+@keyframes animationScaleDown {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes animationScaleUp {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

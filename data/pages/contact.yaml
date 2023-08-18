@@ -1,0 +1,11 @@
+meta:
+  description:
+    Erisyon - Contact.
+  title: Erisyon - Contact
+hero:
+  headline: Contact Us
+  description: "We are open to discussing early system access and collaboration."
+cta:
+  text: "SEND",
+  href: "#",
+  light: true,

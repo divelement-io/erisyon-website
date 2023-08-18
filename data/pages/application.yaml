@@ -1,0 +1,110 @@
+---
+meta:
+  description:
+    Erisyon - Aplication.
+  title: Erisyon - Aplication
+hero:
+  headlineTop: Exciting science
+  headline: revolutionary treatments.
+  description: "Fluorosequencing is uniquely suited to\naddress the most pressing disease challenges\nof our time."
+applicationNotes:
+  headline: "FURTHER READING"
+  listItems:
+    - title: WHITE PAPER
+      description: >-
+        “Fluorosequencing: Concept, Features and Benefits”
+      cta:
+        downloadLink: /files/Fluorosequencing_%20Concept,%20Features%20and%20Benefits.pdf
+    - title: APPLICATION NOTES
+      description: >-
+        “Discovery of Antigenic Peptides for Immunotherapy”
+      cta:
+        downloadLink: /files/Discovery%20of%20Antigenic%20peptides%20for%20immunotherapy.pdf
+    - title: APPLICATION NOTES
+      description: "\
+        “High Sensitive Detection and Quantification of \n\
+        Biomarkers for Parkinson’s Disease”"
+      cta:
+        downloadLink: /files/High%20sensitive%20detection%20and%20quantification%20of%20biomarkers%20for%20Parkinson’s%20disease.pdf
+    - title: APPLICATION NOTES
+      description: "\
+        “Fluorosequencing Implications for COVID-19 and Viral \n\
+        Outbreaks”"
+      cta:
+        downloadLink: /files/Fluorosequencing%20implications%20for%20COVID-19%20and%20viral%20outbreaks.pdf
+    - title: APPLICATION NOTES
+      description: "\
+        “Mapping the Residue Positions of a Protein’s Post- \n\
+        Translational Modification”"
+      cta:
+        downloadLink: /files/Mapping%20the%20residue%20positions%20of%20a%20protein’s%20post-translational%20modification.pdf
+    - title: APPLICATION NOTES
+      description: >-
+        “Cataloging Individual Proteins from a Single Cell”
+      cta:
+        downloadLink: /files/Cataloguing%20Individual%20Proteins%20from%20a%20Single%20Cell.pdf
+section1:
+  headline: 'Early detection, diagnosis, and treatment of Parkinson’s disease.'
+  pb: '51px'
+  left: 
+    href: '/Images/application/Neonatigens.png'
+    alt: 'Neonatigens image'
+    width: 187
+    height: 151
+    marginRight: 'mr-[1px]'
+  right: 
+    description: 'Parkinson’s disease (PD) is a debilitating neurodegenerative disorder that affects an estimated 1 million sufferers in the United States alone. The leading biomarkers for Parkinson’s are phosphorylation sites on neurological proteins that agglomerate into the hallmarks of Parkinson’s disease - Lewy Bodies. Fluorosequencing, a massively parallel, single-molecule peptide sequencing technology, offers the potential to quantify both the healthy and pathological versions of these proteins, which can lead to early detection of the disease.'
+section3:
+  headline: 'More effective immune-oncology treatments.'
+  left: 
+    href: '/Images/application/Tumor.png'
+    alt: 'Tumor image'
+    width: 372
+    height: 307
+    marginRight: 'mr-[1px]'
+  right: 
+    description: "To express a state of health, a cell presents antigens, short peptides at the surface of the cell , to the immune system. Neoantigens are signals a cancerous cell presents to the immune system to indicate that a mutation has taken place in the cell’s genome and the cell should be discarded. Targeting neoantigens is one of the most promising areas in the field of immuno-oncology. Existing proteomic techniques fall short because they lack the sensitivity and fidelity required for direct detection of neoantigens, hampering the effective application of these potential cures. Fluorosequencing overcomes these limitations and has the potential to unleash some of medicine's most promising solutions to stop cancer."
+section4:
+  headline: 'Revealing the camouflage that viruses use to evade the immune system.'
+  left: 
+    href: '/Images/application/Immunology.png'
+    alt: 'Immunology image'
+    width: 372
+    height: 263
+    marginRight: 'mr-[1px]'
+  right: 
+    description: "One way that a virus like SARS-CoV-2 evades the immune system is by decorating its envelope with sugars in a process known as glycosylation. These sugars act as a camouflage, hiding the virus from the body's defenses. Fluorosequencing can help with pandemic preparedness by identifying glycosylation patterns of zoonotic viruses before they move between species. These signatures can be compared to or assayed with human models to predict how infectious the virus may or may not be. If a virus is deemed to have a human vector, then tests, treatments, and vaccines can be developed well before an outbreak occurs."
+    alignItem: 'baseline'
+cta:
+  text: "See Additional Literature"
+  href: "#"
+  light: false
+elements:
+  -
+    src: 'Seedling.png'
+    width: 105
+    height: 100
+    title: 'Plant Breeding'
+    subTitle: "Greater food\nsecurity"
+    description: 'Plants respond to stress through the addition or alteration of existing proteins through post translational modifications (PTMs), which regulate metabolism and enable inter- or intra-cell signaling. Fluorosequencing is a powerful tool in understanding how to breed better crops that can withstand stressors like biological pathogens or drought because of its ability to elucidate PTMs like phosphorylation.'
+    marginCardTop: '14px'
+    lineWidth: '200px'
+  -
+    src: 'PillBottle.png'
+    width: 94
+    height: 100
+    title: 'Drug Development'
+    subTitle: "Safer, more effective\nmedications"
+    description: 'The majority of drugs in development today target proteins. However, the process of understanding how those drugs interact with proteins is time-consuming, laborious and often inconclusive. Fluorosequencing can determine the precise positions of post-translational modifications – and the reactive amino acids – on a molecule-by-molecule basis. This entirely new way of understanding drug interactions can finally be achieved.'
+    marginCardTop: '5px'
+    lineWidth: '186px'
+  -
+    src: 'Enzyme.png'
+    width: 162
+    height: 100
+    title: 'Industrial Biology'
+    subTitle: "Environmentally\nfriendly solutions"
+    description: 'Enzymes are increasingly being applied to improve all areas of our lives, from making our water safer to making our clothes cleaner. These catalytic proteins are environmentally friendly and more efficient than the chemical additives that they replace. With more efficient and precise sequencing, Fluorosequencing can help develop better enzymes for industrial applications and innovation.'
+    marginCardTop: '14px'
+    lineWidth: '195px'
+---
