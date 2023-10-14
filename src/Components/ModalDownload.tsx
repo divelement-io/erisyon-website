@@ -29,23 +29,22 @@ const ModalDownload = ({
   const handleSubmitForm: FormEventHandler<HTMLFormElement> = async (ev) => {
     ev.preventDefault();
 
-    const encodeData = (data: object | any) => Object
-      .keys(data)
-      .map((key) => `${ encodeURIComponent(key) }=${ encodeURIComponent(data[key]) }`)
-      .join("&");
+    const data = {
+      email: (ev?.target as any)?.[3]?.value,
+      phone: '',
+      company: '',
+      website: '',
+      lastname: (ev?.target as any)?.[2]?.value,
+      firstname: (ev?.target as any)?.[1]?.value,
+    };
 
     try {
-      await fetch("/", {
+      await fetch("/api/createContact", {
         method: "POST",
         headers: { 
-          "Content-Type": "application/x-www-form-urlencoded"
+          "Content-Type": "application/json"
         },
-        body: encodeData({
-          "form-name": (ev?.target as any)?.[0]?.value,
-          firstName: (ev?.target as any)?.[1]?.value,
-          lastName: (ev?.target as any)?.[2]?.value,
-          email: (ev?.target as any)?.[3]?.value,
-        }),
+        body: JSON.stringify(data),
       });
       setAnimationStep(1);
     } catch (error) {
